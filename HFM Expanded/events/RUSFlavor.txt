@@ -315,6 +315,7 @@ country_event = {
 			tag = USA
 			tag = CAN
 			tag = ENG
+			tag = CAL
 			alliance_with = RUS
 		}
 		relation = { who = RUS value = 0 }
@@ -380,6 +381,7 @@ country_event = {
 				OR = {
 					tag = USA
 					tag = CAN
+					tag = CAL
 				}
 			}
 		}
@@ -446,6 +448,7 @@ country_event = {
 					OR = {
 						tag = USA
 						tag = CAN
+						tag = CAL
 					}
 				}
 			}

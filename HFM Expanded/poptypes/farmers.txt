@@ -996,8 +996,10 @@ promote_to = {
 			state_scope = { 
 				is_colonial = yes 
 				NOT = { total_pops = 80000 }
-			}	
-			country = { NOT = { has_country_flag = berlin_conference } }
+				NOT = { continent = north_america }
+				NOT = { continent = south_america }
+			}
+			NOT = { has_global_flag = berlin_conference }
 		}
 		
 		modifier = {

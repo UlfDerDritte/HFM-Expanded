@@ -7,8 +7,10 @@ province_event = {
 	trigger = {
 		owner = { invention = tractors }
 		NOT = { has_province_modifier = local_tractors }
-		NOT = { state_scope = { any_owned_province = { NOT = { controlled_by = THIS } } } }
-		NOT = { state_scope = { is_slave = yes } }
+		NOT = {
+			state_scope = { is_slave = yes }
+			unemployment_by_type = { value = 0.03 type = farmers }
+		}
 		OR = {
 			terrain = plains
 			terrain = steppe

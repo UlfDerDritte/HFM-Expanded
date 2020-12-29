@@ -1330,7 +1330,6 @@ political_decisions = {
 			}
 			war = no
 			is_vassal = no
-			in_sphere = no
 		}
 		effect = {
 			prestige = 10

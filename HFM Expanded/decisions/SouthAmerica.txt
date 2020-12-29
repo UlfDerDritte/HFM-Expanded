@@ -222,6 +222,7 @@ political_decisions = {
 				continent = north_america
 				continent = south_america
 				primary_culture = australian
+				primary_culture = boer
 			}
 			is_greater_power = no
 			NOT = { has_country_flag = come_to_the_new_world }
@@ -231,7 +232,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			is_vassal = no
+			#is_vassal = no
 			is_greater_power = no
 			state_n_government = 1
 			slavery = no_slavery

@@ -347,7 +347,8 @@ early_classical_theory_and_critique = {
     year = 1836
     cost = 3600
 
-    activate_building = lumber_mill 
+    activate_building = lumber_mill
+
     factory_input = -0.01
     ai_chance = {
         factor = 1
@@ -577,6 +578,8 @@ freedom_of_trade = {
     area = market_functionality
     year = 1836
     cost = 3600
+
+    activate_building = luxury_clothes_factory  
 
     influence = 0.1
     farm_rgo_eff = 0.1
@@ -861,6 +864,8 @@ guild_based_production = {
     year = 1836
     cost = 3600
 
+    activate_building = canned_food_factory 
+    
     factory_output = 0.01
     ai_chance = {
         factor = 1.03

@@ -247,7 +247,7 @@ political_decisions = {
             }
             colonial_nation = yes
             #nationalism_n_imperialism = 1
-            NOT = { capital_scope = { continent = africa } }
+            #NOT = { capital_scope = { continent = africa } }
             OR = {
                 #Nigeria
                 AND = {

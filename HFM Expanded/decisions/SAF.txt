@@ -343,6 +343,12 @@ political_decisions = {
 					remove_core = NAL 
 				}
 			}
+			SAF = { 
+				all_core = { 
+					add_core = VLK 
+					remove_core = SAF 
+				}
+			}
 			change_tag = VLK
 			random_owned = { limit = { owner = { accepted_culture = british } } owner = { remove_accepted_culture = british } } 
 			any_pop = {

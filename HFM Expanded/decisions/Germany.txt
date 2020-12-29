@@ -120,7 +120,7 @@ political_decisions = {
 			OR = {
 				tag = PRU
 				tag = GER
-				#tag = GCF
+				tag = GCF
 				tag = NGF
 			}
 			owns = 369
