@@ -87,7 +87,7 @@ trinket_health_care_fully_funded = {
     trigger = {
         exists = yes
         health_care = trinket_health_care
-        administration_spending = 0.2
+        social_spending = 0.2
     }
     global_population_growth = 0.001
     icon = 19
@@ -104,7 +104,7 @@ low_health_care_fully_funded = {
             }
             AND = {
                 ai = no
-                administration_spending = 0.3
+                social_spending = 0.3
             }
         }
     }
@@ -123,7 +123,7 @@ acceptable_health_care_fully_funded = {
             }
             AND = {
                 ai = no
-                administration_spending = 0.4
+                social_spending = 0.4
             }
         }
     }
@@ -142,7 +142,7 @@ good_health_care_fully_funded = {
             }
             AND = {
                 ai = no
-                administration_spending = 0.5
+                social_spending = 0.5
             }
         }
     }
@@ -161,7 +161,7 @@ health_care_fully_funded = {
             }
             AND = {
                 ai = no
-                administration_spending = 0.99
+                social_spending = 0.99
             }
         }
     }

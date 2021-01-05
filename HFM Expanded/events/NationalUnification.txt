@@ -204,7 +204,7 @@ country_event = {
 					NOT = { tag = KUK }
 					NOT = { tag = MOL }
 					NOT = { tag = SIE }
-					NOT = { tag = LUX }
+					#NOT = { tag = LUX }
 					NOT = { tag = LIE }
 					NOT = { tag = BAN }
 					NOT = { tag = VLG }

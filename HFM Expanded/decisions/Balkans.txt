@@ -828,7 +828,7 @@ political_decisions = {
 			}
 			any_country = {
 				limit = {
-					NOT = { is_culture_group = south_slavic }
+					NOT = { is_culture_group = THIS }
 					in_sphere = THIS
 					war = no
 					any_owned_province = {

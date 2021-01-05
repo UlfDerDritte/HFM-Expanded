@@ -3,7 +3,10 @@ political_decisions = {
 	expel_turks = {
 		picture = constantine_I
 		potential = {
-			tag = GRE
+			OR = {
+				tag = GRE
+				tag = BYZ
+			}
 			has_country_flag = greece_has_got_a_brand_new_bag
 			NOT = { has_country_flag = population_exchange_with_turkey }
 			NOT = { has_country_flag = turks_expelled }
@@ -26,13 +29,39 @@ political_decisions = {
 					
 					any_pop = { 
 						limit = { is_culture_group = turko_semitic } 
-						reduce_pop = 0.8
+						reduce_pop = 0.6
 						militancy = 8
 					}
 					any_pop = { 
 							limit = { is_culture_group = levantine } 
 							militancy = -5 
-							reduce_pop = 1.1
+							reduce_pop = 1.5
+					}
+					any_pop = { 
+						limit = { 
+							is_culture_group = turko_semitic
+							type = soldiers
+						} 
+						militancy = 5
+						move_pop = 876
+					}
+				}
+				set_country_flag = turks_expelled
+			}
+			
+			BYZ = {
+				any_owned = {
+					limit = { is_core = BYZ }
+					
+					any_pop = { 
+						limit = { is_culture_group = turko_semitic } 
+						reduce_pop = 0.6
+						militancy = 8
+					}
+					any_pop = { 
+							limit = { is_culture_group = levantine } 
+							militancy = -5 
+							reduce_pop = 1.5
 					}
 					any_pop = { 
 						limit = { 
@@ -54,7 +83,7 @@ political_decisions = {
 				any_pop = { 
 						limit = { culture = greek } 
 						militancy = -1 
-						reduce_pop = 0.98
+						reduce_pop = 1.2
 						move_pop = 860
 				}					
 			}
@@ -283,7 +312,7 @@ political_decisions = {
 			clr_global_flag = serbian_rename_s_macedonia
 			prestige = 2
 			805 = {
-				change_province_name = "Thessaloníki" 
+				change_province_name = "Thessalonï¿½ki" 
 				state_scope = {
 					change_region_name = "Southern Macedonia"
 				}
@@ -374,7 +403,7 @@ political_decisions = {
 					change_region_name = "Eastern Macedonia"
 				}
 			}
-			829 = { change_province_name = "Xánthi" }
+			829 = { change_province_name = "Xï¿½nthi" }
 			830 = { change_province_name = "Alexandroupoli" }
 			prestige = 2
 		}
@@ -433,8 +462,8 @@ political_decisions = {
 					change_region_name = "Eastern Makedonya"
 				}
 			}
-			829 = { change_province_name = "Iskeçe" }
-			830 = { change_province_name = "Dedeagaç" }
+			829 = { change_province_name = "Iskeï¿½e" }
+			830 = { change_province_name = "Dedeagaï¿½" }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -456,13 +485,13 @@ political_decisions = {
 			clr_global_flag = bulgarian_rename_n_macedonia
 			clr_global_flag = serbian_rename_n_macedonia
 			806 = {
-				change_province_name = "Skópia" 
+				change_province_name = "Skï¿½pia" 
 				state_scope = {
 					change_region_name = "Northern Macedonia"
 				}
 			}
-			807 = { change_province_name = "Monastíri" }
-			1780 = { change_province_name = "Dívre" }
+			807 = { change_province_name = "Monastï¿½ri" }
+			1780 = { change_province_name = "Dï¿½vre" }
 			prestige = 2
 		}
 		ai_will_do = { factor = 1 }
@@ -547,7 +576,7 @@ political_decisions = {
 			clr_global_flag = bulgarian_rename_n_macedonia
 			clr_global_flag = serbian_rename_n_macedonia
 			806 = {
-				change_province_name = "Üsküb" 
+				change_province_name = "ï¿½skï¿½b" 
 				state_scope = {
 					change_region_name = "Northern Makedonya"
 				}
@@ -731,7 +760,7 @@ political_decisions = {
 				limit = {
 					province_id = 861
 				}
-				861 = { change_province_name = "Üsküdar" }
+				861 = { change_province_name = "ï¿½skï¿½dar" }
 				owner = { set_country_flag = turkification_uskudar }
 			}
 		}

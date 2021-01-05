@@ -609,8 +609,8 @@ political_decisions = {
 				remove_core = ALS
 			}
 			LOR = {
-				primary_culture = north_german
-				add_accepted_culture = south_german
+				primary_culture = south_german
+				add_accepted_culture = north_german
 			}
 			random_owned = {
 				limit = { owner = { OR = { government = hms_government government = constitutional_empire } } }

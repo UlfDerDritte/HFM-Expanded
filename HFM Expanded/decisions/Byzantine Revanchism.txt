@@ -40,6 +40,9 @@ political_decisions = {
 			TUR_885 = {
 				add_core = BYZ
 			}
+			TUR_887 = {
+				add_core = BYZ
+			}
 				any_country = {
 				limit = {
 					OR = {

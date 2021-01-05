@@ -67,7 +67,10 @@ political_decisions = {
 			TUR = { is_greater_power = no }
 			OR = {
 				AND = {
-					year = 1890
+					OR = {
+						year = 1890
+						owns = 860
+					}
 					invention = national_fraternity			
 				}
 				TUR = {

@@ -143,6 +143,7 @@ political_decisions = {
 				}
 			}
 			69 = { remove_core = NEN }
+			3280 = { remove_core = NEN }
 			250 = { remove_core = MRU }
 			ENG = { all_core = { remove_core = USA } }
 			USA = {

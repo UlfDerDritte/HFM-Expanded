@@ -8474,5 +8474,9 @@ country_event = {
 				add_core = THIS
 				secede_province = THIS
 			}
+			3314 = {
+				add_core = THIS
+				secede_province = THIS
+			}
 		}
 	}
