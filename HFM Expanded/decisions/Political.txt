@@ -356,7 +356,7 @@ political_decisions = {
 					}
 				}
 				owner = {
-					1481 = { change_province_name = "L�shun" }
+					1481 = { change_province_name = "Lüshun" }
 					set_global_flag = lushun
 					clr_global_flag = renamed_port_arthur
 					clr_global_flag = renamed_ryojun
@@ -1884,6 +1884,7 @@ political_decisions = {
                     owned_by = THIS
                     is_capital = yes
                     NOT = { life_rating = 38 }
+					NOT = { has_country_flag = extreme_home_makeover }
                 }
 				387 = { #Brussels
 					owned_by = THIS

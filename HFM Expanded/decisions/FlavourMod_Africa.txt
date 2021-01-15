@@ -1122,7 +1122,7 @@ political_decisions = {
 			any_owned_province = { has_building = naval_base }
 			OR = { 
 				any_owned_province = { continent = africa } 
-				any_owned_province = { continent = south_west_africa } 
+				any_owned_province = { continent = south_africa } 
 				any_owned_province = { continent = east_africa } 
 				any_owned_province = { continent = west_africa }
 				any_owned_province = { continent = central_africa }
@@ -1138,7 +1138,7 @@ political_decisions = {
 			NOT = { any_greater_power = { war_with = THIS } }
 			OR = { 
 				any_owned_province = { continent = africa } 
-				any_owned_province = { continent = south_west_africa } 
+				any_owned_province = { continent = south_africa } 
 				any_owned_province = { continent = east_africa } 
 				any_owned_province = { continent = west_africa }
 				any_owned_province = { continent = central_africa }
@@ -1426,7 +1426,7 @@ political_decisions = {
 			}
 			OR = { 
 				any_owned_province = { continent = africa } 
-				any_owned_province = { continent = south_west_africa } 
+				any_owned_province = { continent = south_africa } 
 				any_owned_province = { continent = east_africa } 
 				any_owned_province = { continent = west_africa }
 				any_owned_province = { continent = central_africa }
@@ -1819,6 +1819,9 @@ political_decisions = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism
 				government = hms_government
+				government = absolute_empire
+				government = semi_constitutional_empire
+				government = constitutional_empire
 			}
 			invention = the_dark_continent
 			great_wars_enabled = yes
@@ -1858,7 +1861,7 @@ political_decisions = {
 						continent = west_africa
 						continent = central_africa
 						continent = east_africa
-						continent = south_west_africa
+						continent = south_africa
 					}
 					NOT = { is_core = EGY }
 				}
@@ -1874,6 +1877,9 @@ political_decisions = {
 				prestige = -500
 				capital = 2036
 				government = colonial_company
+				primary_culture = THIS
+				limit = { THIS = { primary_culture = north_german } add_accepted_culture = south_german }
+				limit = { THIS = { primary_culture = south_german } add_accepted_culture = north_german }
 			}
 			TNZ = { all_core = { add_core = MIT } }
 		}
@@ -1888,22 +1894,29 @@ political_decisions = {
 			is_greater_power = yes
 			is_our_vassal = MIT
 			exists = MIT
-			OR = {
-				KNY = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				ASH = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				BEN = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				CHD = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				NGR = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				NIG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				TOG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				MLI = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				ALD = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				IVC = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				MOR = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				BKF = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				GNE = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				SNG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
-				TRZ = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			any_owned_province = {
+				OR = {
+					continent = africa
+					continent = west_africa
+					continent = central_africa
+					continent = east_africa
+					continent = south_africa
+				}
+			#	KNY = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	ASH = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	BEN = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	CHD = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	NGR = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	NIG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	TOG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	MLI = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	ALD = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	IVC = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	MOR = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	BKF = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	GNE = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	SNG = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
+			#	TRZ = { all_core = { OR = { owned_by = THIS owner = { NOT = { tag = MIT } vassal_of = THIS war = no } } } }
 			}
 		}
 		
@@ -1921,7 +1934,7 @@ political_decisions = {
 						continent = west_africa
 						continent = central_africa
 						continent = east_africa
-						continent = south_west_africa
+						continent = south_africa
 					}
 					NOT = { is_core = EGY }
 				}

@@ -181,7 +181,7 @@ promotion_chance =
 				continent = west_africa
 				continent = central_africa
 				continent = east_africa
-				continent = south_west_africa
+				continent = south_africa
 			}
 			culture = russian
 		}
@@ -1594,7 +1594,7 @@ assimilation_chance =
         		continent = east_africa
 				continent = west_africa
 				continent = central_africa
-				continent = south_west_africa
+				continent = south_africa
 				continent = africa
         	}
         }

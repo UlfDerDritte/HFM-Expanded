@@ -604,9 +604,12 @@ political_decisions = {
 		effect = {
 			set_country_flag = duchy_of_lorraine
 			FRA_411 = { add_core = LOR }
+			FRA_412 = {
+				remove_core = ALS
+				remove_core = FRA
+			}
 			412 = {
 				add_core = LOR
-				remove_core = ALS
 			}
 			LOR = {
 				primary_culture = south_german

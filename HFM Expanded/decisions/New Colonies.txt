@@ -4,20 +4,20 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = nigeria_organized
 				capital_scope = { continent = africa } 
 				capital_scope = { continent = west_africa } 
 				capital_scope = { continent = central_africa }
 				capital_scope = { continent = east_africa } 
-				capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = south_africa }
 			}
 			OR = {
 				owns = 1926
 				owns = 1934
 				owns = 1928
 			}
-            has_country_flag = organize_colony_decisions
 		}
 		
 		allow = {
@@ -166,9 +166,8 @@ political_decisions = {
 				capital_scope = { continent = central_africa }
 				capital_scope = { continent = west_africa } 
 				capital_scope = { continent = east_africa } 
-				capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = south_africa }
 			}
-            has_country_flag = organize_colony_decisions
 		}
 		
 		allow = {
@@ -296,7 +295,7 @@ political_decisions = {
  capital_scope = { continent = west_africa } 
  capital_scope = { continent = central_africa } 
  capital_scope = { continent = east_africa } 
- capital_scope = { continent = south_west_africa }
+ capital_scope = { continent = south_africa }
 			}
 			owns = 1914
 		}
@@ -378,11 +377,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+ capital_scope = { continent = west_africa } 
+ capital_scope = { continent = east_africa } 
+ capital_scope = { continent = central_africa } 
+ capital_scope = { continent = south_africa }
 			}
 		}
 		
@@ -456,13 +455,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = ivory_coast_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1892
 		}
@@ -548,11 +548,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+ capital_scope = { continent = west_africa } 
+ capital_scope = { continent = east_africa } 
+ capital_scope = { continent = central_africa } 
+ capital_scope = { continent = south_africa }
 			}
 		}
 		
@@ -627,13 +627,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = sierra_leone_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1884
 			owns = 1885
@@ -713,11 +714,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				 capital_scope = { continent = west_africa } 
+				 capital_scope = { continent = central_africa } 
+				 capital_scope = { continent = east_africa } 
+				 capital_scope = { continent = south_africa }
 			}
 		}
 		
@@ -781,13 +782,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = guinea_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1879
 			owns = 1880
@@ -867,13 +869,13 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
-			}
+			#NOT = {
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
+			#}
 		}
 		
 		allow = {
@@ -943,13 +945,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = senegal_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1790
 		}
@@ -996,13 +999,13 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
-			}
+			#NOT = {
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
+			#}
 		}
 		
 		allow = {
@@ -1040,13 +1043,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = niger_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1808
 			1812 = { empty = no }
@@ -1133,13 +1137,13 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
-			}
+			#NOT = {
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
+			#}
 		}
 		
 		allow = {
@@ -1218,13 +1222,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = chad_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1818
 		}
@@ -1324,13 +1329,13 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			NOT = {
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
-			}
+			#NOT = {
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
+			#}
 		}
 		
 		allow = {
@@ -1412,13 +1417,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = cameroon_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 1959
 		}
@@ -1505,11 +1511,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -1592,13 +1598,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = gabon_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa }
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1972
 			1976 = { empty = no }
@@ -1678,11 +1685,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -1747,13 +1754,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = congo_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1977
 			1980 = { empty = no }
@@ -1838,11 +1846,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -1920,13 +1928,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = zaire_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1982
 			NOT = { has_country_flag = not_congo_primary_culture }
@@ -2034,11 +2043,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = { 
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa } 
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa } 
 			}
 			NOT = { has_country_flag = not_congo_primary_culture }
 		}
@@ -2136,13 +2145,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = zambia_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2012
 		}
@@ -2245,11 +2255,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -2341,13 +2351,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = kenya_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2024
 		}
@@ -2444,11 +2455,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -2533,13 +2544,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = tanzania_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2044
 		}
@@ -2635,11 +2647,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -2724,13 +2736,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = mali_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			2609 = { empty = no }
 			owns = 1803
@@ -2820,11 +2833,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -2906,14 +2919,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				tag = TUR
 				has_global_flag = libya_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1731
 		}
@@ -2988,13 +3002,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = CAR_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1965
 		}
@@ -3079,11 +3094,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = { 
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa } 
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa } 
 			}
 		}
 		
@@ -3161,13 +3176,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = malawi_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2067
 		}
@@ -3256,11 +3272,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -3327,13 +3343,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = gambia_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1785
 		}
@@ -3412,11 +3429,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -3481,13 +3498,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				has_global_flag = angola_created
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1999
 			NOT = { has_global_flag = angola_created }
@@ -3576,11 +3594,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = south_africa }
 			#}
 		}
 		
@@ -3658,11 +3676,11 @@ political_decisions = {
 			civilized = yes
 			NOT = {
 				has_global_flag = mozambique_created
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa }
+			#	capital_scope = { continent = west_africa }
+			#	capital_scope = { continent = east_africa }
+			#	capital_scope = { continent = central_africa }
+			#	capital_scope = { continent = south_africa }
 			}
 		}
 
@@ -3802,14 +3820,13 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = {
-			#		capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
-		}
 		
 		allow = {
 			war = no
@@ -3886,14 +3903,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = ALD
 				has_global_flag = algeria_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa }
 				primary_culture = french
 			}
 			owns = 1700
@@ -3930,14 +3948,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = BUG
 				has_global_flag = uganda_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 2019
 		}
@@ -4019,11 +4038,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -4086,14 +4106,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = TSW
 				has_global_flag = botswana_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2074
 		}
@@ -4172,11 +4193,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -4243,15 +4265,16 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				owns = 2044
 				exists = ZAN
 				has_global_flag = zanzibar_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2048
 		}
@@ -4282,14 +4305,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = SUD
 				has_global_flag = sudan_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 				OR = {
 					tag = EGY
 					1827 = { is_core = EGY }
@@ -4329,14 +4353,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = ASH
 				has_global_flag = ghana_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1910
 		}
@@ -4413,11 +4438,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -4484,14 +4510,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = BKF
 				has_global_flag = burkina_faso_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1901
 		}
@@ -4573,11 +4600,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -4647,14 +4675,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = TRZ
 				has_global_flag = mauretania_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1775
 		}
@@ -4687,14 +4716,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = DAH
 				has_global_flag = dahomey_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1920
 		}
@@ -4774,11 +4804,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -4939,13 +4970,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = { exists = SOM }
 			state_n_government = 1
 			NOT = { capital_scope = { continent = africa } 
 			capital_scope = { continent = west_africa } 
 			capital_scope = { continent = east_africa } 
 			capital_scope = { continent = central_africa } 
-			capital_scope = { continent = south_west_africa } }
+			capital_scope = { continent = south_africa } }
 			NOT = { has_global_flag = somalia_united }
 			invention = the_dark_continent
 			owns = 1868
@@ -5153,14 +5185,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = NMB
 				has_global_flag = namibia_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = south_africa }
 			}
 			owns = 2078
 		}
@@ -5261,11 +5294,11 @@ political_decisions = {
 				NOT = { is_culture_group = THIS }
 			}
 			NOT = { 
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 		}
 		
@@ -5525,14 +5558,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = GBU
 				has_global_flag = guine_bissau_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 1877
 		}
@@ -5616,11 +5650,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 		}
 		
@@ -5694,14 +5729,15 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = MAD
 				has_global_flag = madagascar_organized
-				#capital_scope = { continent = africa }
-				#capital_scope = { continent = west_africa }
-				#capital_scope = { continent = east_africa }
-				#capital_scope = { continent = central_africa }
-				#capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = africa } 
+				capital_scope = { continent = west_africa } 
+				capital_scope = { continent = east_africa } 
+				capital_scope = { continent = central_africa } 
+				capital_scope = { continent = south_africa }
 			}
 			owns = 2115
 		}
@@ -5786,7 +5822,7 @@ political_decisions = {
 			capital_scope = { continent = west_africa } 
 			capital_scope = { continent = east_africa } 
 			capital_scope = { continent = central_africa } 
-			capital_scope = { continent = south_west_africa } }
+			capital_scope = { continent = south_africa } }
 		}
 		
 		allow = {
@@ -5852,13 +5888,14 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
+			has_country_flag = organize_colony_decisions
 			NOT = {
 				exists = ZBW
 				has_global_flag = zimbabwe_organized
 				capital_scope = { continent = africa } 
 				capital_scope = { continent = west_africa } 
 				capital_scope = { continent = east_africa } 
-				capital_scope = { continent = south_west_africa }
+				capital_scope = { continent = south_africa }
 				capital_scope = { continent = central_africa } 
 				primary_culture = british
 			}
@@ -5937,11 +5974,12 @@ political_decisions = {
 				exists = no
 				NOT = { is_culture_group = THIS }
 			}
-			#NOT = { capital_scope = { continent = africa } 
-			#		capital_scope = { continent = west_africa } 
-			#		capital_scope = { continent = east_africa } 
-			#		capital_scope = { continent = central_africa } 
-			#		capital_scope = { continent = south_west_africa }
+			#NOT = { 
+			#	capital_scope = { continent = africa } 
+			#	capital_scope = { continent = west_africa } 
+			#	capital_scope = { continent = east_africa } 
+			#	capital_scope = { continent = central_africa } 
+			#	capital_scope = { continent = south_africa } }
 			#}
 			NOT = { has_country_flag = ian_would_be_proud }
 		}
@@ -6022,11 +6060,17 @@ political_decisions = {
 			owns = 2079
 			NOT = { owns = 2081 }
 			NOT = { has_global_flag = caprivi_purchase_tried }
-			2081 = { owner = { NOT = { capital_scope = { continent = africa } 
-					capital_scope = { continent = west_africa } 
-					capital_scope = { continent = east_africa } 
-					capital_scope = { continent = central_africa } 
-					capital_scope = { continent = south_west_africa } } } }
+			2081 = {
+				owner = {
+					NOT = {
+						capital_scope = { continent = africa } 
+						capital_scope = { continent = west_africa } 
+						capital_scope = { continent = east_africa } 
+						capital_scope = { continent = central_africa } 
+						capital_scope = { continent = south_africa }
+					}
+				}
+			}
 			OR = {
 				2081 = { owner = { has_country_flag = treaty_of_heligoland } }
 				2081 = { owner = { NOT = { tag = ENG } } }
@@ -6100,7 +6144,7 @@ political_decisions = {
 					capital_scope = { continent = africa } 
 					capital_scope = { continent = west_africa } 
 					capital_scope = { continent = east_africa } 
-					capital_scope = { continent = south_west_africa }
+					capital_scope = { continent = south_africa }
 					capital_scope = { continent = central_africa } 
 					civilized = yes
 				}
@@ -6162,11 +6206,11 @@ political_decisions = {
 						OR = {
 							invention = the_dark_continent
 							AND = {
-								capital_scope = { continent = africa } 
-								capital_scope = { continent = central_africa } 
-								 capital_scope = { continent = west_africa } 
-								 capital_scope = { continent = east_africa } 
-								 capital_scope = { continent = south_west_africa }
+								capital_scope = { continent = africa }
+								capital_scope = { continent = west_africa }
+								capital_scope = { continent = central_africa }
+								capital_scope = { continent = east_africa }
+								capital_scope = { continent = south_africa }
 								civilized = yes
 							}
 						}
@@ -6186,11 +6230,11 @@ political_decisions = {
 						OR = {
 							invention = the_dark_continent
 							AND = {
-								capital_scope = { continent = africa } 
-								capital_scope = { continent = central_africa } 
-								 capital_scope = { continent = west_africa } 
-								 capital_scope = { continent = east_africa } 
-								 capital_scope = { continent = south_west_africa }
+								capital_scope = { continent = africa }
+								capital_scope = { continent = west_africa }
+								capital_scope = { continent = central_africa }
+								capital_scope = { continent = east_africa }
+								capital_scope = { continent = south_africa }
 								civilized = yes
 							}
 						}
@@ -6209,11 +6253,11 @@ political_decisions = {
 						OR = {
 							invention = the_dark_continent
 							AND = {
-								capital_scope = { continent = africa } 
-								capital_scope = { continent = central_africa } 
-								 capital_scope = { continent = west_africa } 
-								 capital_scope = { continent = east_africa } 
-								 capital_scope = { continent = south_west_africa }
+								capital_scope = { continent = africa }
+								capital_scope = { continent = west_africa }
+								capital_scope = { continent = central_africa }
+								capital_scope = { continent = east_africa }
+								capital_scope = { continent = south_africa }
 								civilized = yes
 							}
 						}
@@ -6231,11 +6275,11 @@ political_decisions = {
 						OR = {
 							invention = the_dark_continent
 							AND = {
-								capital_scope = { continent = africa } 
-								 capital_scope = { continent = west_africa } 
-								 capital_scope = { continent = central_africa } 
-								 capital_scope = { continent = east_africa } 
-								 capital_scope = { continent = south_west_africa }
+								capital_scope = { continent = africa }
+								capital_scope = { continent = west_africa }
+								capital_scope = { continent = central_africa }
+								capital_scope = { continent = east_africa }
+								capital_scope = { continent = south_africa }
 								civilized = yes
 							}
 						}

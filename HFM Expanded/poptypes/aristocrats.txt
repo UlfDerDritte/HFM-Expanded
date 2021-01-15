@@ -480,7 +480,7 @@ migration_target = {
 			continent = west_africa
 			continent = east_africa
 			continent = central_africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 	}
 	
@@ -491,7 +491,7 @@ migration_target = {
 			continent = east_africa
 			continent = central_africa
 			continent = africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 		country = { primary_culture = russian }
 	}
@@ -505,7 +505,7 @@ migration_target = {
 			continent = central_africa
 			continent = oceania #Near East
 			continent = africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 		country = { colonial_policy = settlement primary_culture = russian }
 	}
@@ -538,7 +538,7 @@ migration_target = {
 			state_id = 350
 			state_id = 690
 			state_id = 699
-			continent = south_west_africa
+			continent = south_africa
 			state_id = 409
 			state_id = 411
 		}

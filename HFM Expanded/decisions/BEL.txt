@@ -50,7 +50,7 @@ political_decisions = {
 					NOT = { badboy = 0.1 }
 					NOT = { 
 						any_owned_province = { continent = africa } 
-						any_owned_province = { continent = south_west_africa } 
+						any_owned_province = { continent = south_africa } 
 						any_owned_province = { continent = east_africa } 
 						any_owned_province = { continent = west_africa }
 						any_owned_province = { continent = central_africa }
@@ -62,7 +62,7 @@ political_decisions = {
 					NOT = { badboy = 0.01 }
 					NOT = { 
 						any_owned_province = { continent = africa } 
-						any_owned_province = { continent = south_west_africa } 
+						any_owned_province = { continent = south_africa } 
 						any_owned_province = { continent = east_africa } 
 						any_owned_province = { continent = west_africa }
 						any_owned_province = { continent = central_africa }
@@ -76,7 +76,7 @@ political_decisions = {
 					NOT = { badboy = 0.5 }
 					NOT = { 
 						any_owned_province = { continent = africa } 
-						any_owned_province = { continent = south_west_africa } 
+						any_owned_province = { continent = south_africa } 
 						any_owned_province = { continent = east_africa } 
 						any_owned_province = { continent = west_africa }
 						any_owned_province = { continent = central_africa }
@@ -117,7 +117,7 @@ political_decisions = {
 		allow = {
 			OR = {
 				any_owned_province = { continent = africa } 
-				any_owned_province = { continent = south_west_africa } 
+				any_owned_province = { continent = south_africa } 
 				any_owned_province = { continent = east_africa } 
 				any_owned_province = { continent = west_africa }
 				any_owned_province = { continent = central_africa }
@@ -131,7 +131,7 @@ political_decisions = {
 					location = { 
 						OR = {
 							continent = africa 
-							continent = south_west_africa 
+							continent = south_africa 
 							continent = east_africa
 							continent = west_africa
 							continent = central_africa
@@ -149,7 +149,7 @@ political_decisions = {
 				limit = {
 					OR = {
 						continent = africa 
-						continent = south_west_africa 
+						continent = south_africa 
 						continent = east_africa
 						continent = west_africa
 						continent = central_africa

@@ -49,6 +49,18 @@ set_country_flag = protestant_country
 
 set_country_flag = post_colonial_country
 
+govt_flag = { 
+	OR = {
+		vassal_of = GER 
+		vassal_of = GCF
+	} 
+	flag = theocracy
+}
+
+govt_flag = { government = constitutional_empire flag = theocracy }
+govt_flag = { government = semi_constitutional_empire flag = theocracy }
+govt_flag = { government = absolute_empire flag = theocracy }
+
 ruling_party = CMR_reactionary
 upper_house = {
 	fascist = 0

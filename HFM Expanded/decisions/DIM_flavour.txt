@@ -93,7 +93,10 @@ political_decisions = {
 			money = 100000
 		}
 		
-		effect = { country_event = 211489 }
+		effect = {
+			country_event = 211489
+			set_country_flag = extreme_home_makeover
+		}
 		
 		ai_will_do = { factor = 1 }
 	}

@@ -620,7 +620,7 @@ political_decisions = {
 		
 		effect = {
 			clr_global_flag = warlord_era_has_begun
-			capital = 1616
+			capital = 2221
 			prestige = 20
 			add_accepted_culture = han_chinese
 			add_accepted_culture = han_chinese
