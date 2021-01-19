@@ -78,6 +78,7 @@ political_decisions = {
 			change_tag = KUK
 			KUK = { political_reform = regionalism }
 			set_country_flag = dual_monarchy
+			inherit = HUN
 			random_country = {
 				limit = {
 					OR = {
@@ -97,9 +98,12 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				is_greater_power = yes
-				NGF = { exists = no }
-				GER = { exists = no }
-				GCF = { exists = no }
+				AND = {
+					NGF = { exists = no }
+					GER = { exists = no }
+					GCF = { exists = no }
+					year = 1867
+				}
 				NOT = {
 					OR = {
 						average_militancy = 6
@@ -266,7 +270,7 @@ political_decisions = {
 			regular_clothes = 100
 			leadership = 40
 			define_general = {
-				name = "Józef Bem"
+				name = "Jï¿½zef Bem"
 				personality = intelligent
 				background = natural_born_leader
 			}
@@ -1048,6 +1052,24 @@ political_decisions = {
 				life_rating = 5
 				add_province_modifier = { name = recently_built_city duration = 1825 }
 			}
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	debug_inherit_hungary = {
+		picture = budapest_city
+		potential = {
+			tag = AUS
+			ai = no
+		}
+		
+		allow = {
+			money = 1
+		}
+		
+		effect = {
+
+		inherit = HUN
 		}
 		
 		ai_will_do = { factor = 1 }

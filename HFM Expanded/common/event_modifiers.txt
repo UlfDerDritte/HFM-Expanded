@@ -704,7 +704,7 @@ highlander_raids = {
 }
 
 jewish_farms = {
-    farm_rgo_size = 2
+    farm_rgo_size = 6
     icon = 13
 }
 

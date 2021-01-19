@@ -4,7 +4,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = nigeria_organized
 				capital_scope = { continent = africa } 
@@ -455,7 +458,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = ivory_coast_organized
 			#	capital_scope = { continent = africa } 
@@ -627,7 +633,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = sierra_leone_organized
 			#	capital_scope = { continent = africa } 
@@ -782,7 +791,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = guinea_organized
 			#	capital_scope = { continent = africa } 
@@ -945,7 +957,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = senegal_organized
 			#	capital_scope = { continent = africa } 
@@ -1043,7 +1058,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = niger_organized
 			#	capital_scope = { continent = africa } 
@@ -1222,7 +1240,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = chad_organized
 			#	capital_scope = { continent = africa } 
@@ -1417,7 +1438,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = cameroon_organized
 			#	capital_scope = { continent = africa } 
@@ -1598,7 +1622,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = gabon_organized
 				capital_scope = { continent = africa } 
@@ -1754,7 +1781,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = congo_organized
 				capital_scope = { continent = africa } 
@@ -1928,7 +1958,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = zaire_organized
 				capital_scope = { continent = africa } 
@@ -2145,7 +2178,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = zambia_organized
 				capital_scope = { continent = africa } 
@@ -2351,7 +2387,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = kenya_organized
 				capital_scope = { continent = africa } 
@@ -2544,7 +2583,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = tanzania_organized
 				capital_scope = { continent = africa } 
@@ -2736,7 +2778,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = mali_organized
 				capital_scope = { continent = africa } 
@@ -2919,7 +2964,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				tag = TUR
 				has_global_flag = libya_organized
@@ -3002,7 +3050,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = CAR_organized
 				capital_scope = { continent = africa } 
@@ -3176,7 +3227,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = malawi_organized
 				capital_scope = { continent = africa } 
@@ -3343,7 +3397,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = gambia_organized
 				capital_scope = { continent = africa } 
@@ -3498,7 +3555,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				has_global_flag = angola_created
 				capital_scope = { continent = africa } 
@@ -3771,15 +3831,15 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 2063 owner = { tag = POR } }
-				change_province_name = "Porto Amélia"
+				change_province_name = "Porto Amï¿½lia"
 			}
 			random_owned = {
 				limit = { province_id = 2061 owner = { tag = POR } }
-				change_province_name = "António Enes"
+				change_province_name = "Antï¿½nio Enes"
 			}
 			random_owned = {
 				limit = { province_id = 2050 owner = { tag = POR } }
-				change_province_name = "João Belo"
+				change_province_name = "Joï¿½o Belo"
 			}
 			random_owned = {
 				limit = { province_id = 2064 owner = { tag = POR } }
@@ -3791,7 +3851,7 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 2052 owner = { tag = POR } }
-				change_province_name = "Malvérnia"
+				change_province_name = "Malvï¿½rnia"
 			}
 			random_owned = {
 				limit = { province_id = 2050 owner = { tag = POR } }
@@ -3799,11 +3859,11 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 2049 owner = { tag = POR NOT = { has_country_flag = reconquest_of_lourenco_marques } } }
-				change_province_name = "Lourenço Marques"
+				change_province_name = "Lourenï¿½o Marques"
 			}
 			random_owned = {
 				limit = { province_id = 2051 owner = { tag = POR NOT = { has_country_flag = reconquest_of_lourenco_marques } } }
-				2051 = { state_scope = { change_region_name = "Lourenço Marques" } }
+				2051 = { state_scope = { change_region_name = "Lourenï¿½o Marques" } }
 			}
 		}
 
@@ -3903,7 +3963,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = ALD
 				has_global_flag = algeria_organized
@@ -3948,7 +4011,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = BUG
 				has_global_flag = uganda_organized
@@ -4106,7 +4172,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = TSW
 				has_global_flag = botswana_organized
@@ -4265,7 +4334,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				owns = 2044
 				exists = ZAN
@@ -4305,7 +4377,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = SUD
 				has_global_flag = sudan_organized
@@ -4353,7 +4428,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = ASH
 				has_global_flag = ghana_organized
@@ -4510,7 +4588,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = BKF
 				has_global_flag = burkina_faso_organized
@@ -4675,7 +4756,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = TRZ
 				has_global_flag = mauretania_organized
@@ -4716,7 +4800,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = DAH
 				has_global_flag = dahomey_organized
@@ -4970,7 +5057,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = { exists = SOM }
 			state_n_government = 1
 			NOT = { capital_scope = { continent = africa } 
@@ -5185,7 +5275,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = NMB
 				has_global_flag = namibia_organized
@@ -5558,7 +5651,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = GBU
 				has_global_flag = guine_bissau_organized
@@ -5729,7 +5825,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = MAD
 				has_global_flag = madagascar_organized
@@ -5888,7 +5987,10 @@ political_decisions = {
 		picture = map_africa
 		potential = {
 			civilized = yes
-			has_country_flag = organize_colony_decisions
+			OR = {
+				has_country_flag = organize_colony_decisions
+				ai = yes
+			}
 			NOT = {
 				exists = ZBW
 				has_global_flag = zimbabwe_organized
@@ -6098,7 +6200,8 @@ political_decisions = {
 		picture = form_the_ikhwan
 		potential = {
 			has_global_flag = berlin_conference
-			is_greater_power = yes
+			#is_greater_power = yes
+			civilized = yes
 			exists = yes
 			OR = {
 				AND = {
@@ -6140,14 +6243,11 @@ political_decisions = {
 			NOT = { any_greater_power = { war_with = THIS } }
 			OR = {
 				invention = the_dark_continent
-				AND = {
-					capital_scope = { continent = africa } 
-					capital_scope = { continent = west_africa } 
-					capital_scope = { continent = east_africa } 
-					capital_scope = { continent = south_africa }
-					capital_scope = { continent = central_africa } 
-					civilized = yes
-				}
+				capital_scope = { continent = africa }
+				capital_scope = { continent = west_africa }
+				capital_scope = { continent = east_africa }
+				capital_scope = { continent = south_africa }
+				capital_scope = { continent = central_africa }
 			}
 			OR = {
 				AND = {

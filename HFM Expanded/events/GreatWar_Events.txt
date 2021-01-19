@@ -3379,7 +3379,7 @@ country_event = {
 		any_country = {
 			limit = {
 				exists = yes
-				any_core = { owned_by = THIS }
+				#any_core = { owned_by = THIS }
 				NOT = { this_culture_union = THIS }
 				OR = {
 					truce_with = THIS
@@ -3392,9 +3392,9 @@ country_event = {
 			all_core = {
 				limit = {
 					is_core = THIS
-					state_scope = {
-						NOT = { any_owned_province = { is_capital = yes } }
-					}
+					#state_scope = {
+					#	NOT = { any_owned_province = { is_capital = yes } }
+					#}
 				}
 				remove_core = THIS
 			}
@@ -3793,7 +3793,7 @@ country_event = {
 			country_event = 96060
 		}
 		
-		#If Kamchatka does not exist, release it (50% chance)
+		#If Kamchatka does not exist, release it (60% chance)
 		any_country = {
 			limit = {
 				tag = KAM
@@ -3804,7 +3804,7 @@ country_event = {
 				}
 			}
 			random = {
-				chance = 50
+				chance = 100
 				country_event = 96012
 				government = democracy
 				political_reform = population_equal_weight
@@ -3819,7 +3819,7 @@ country_event = {
 			}
 		}
 		
-		#If Buryatia does not exist, 50% chance of release it if Kamchatka is free
+		#If Buryatia does not exist, 60% chance of release it if Kamchatka is free
 		any_country = {
 			limit = {
 				tag = BRY
@@ -3832,7 +3832,7 @@ country_event = {
 			}
 			
 			random = {
-				chance = 50
+				chance = 100
 				civilized = yes
 				government = democracy
 				political_reform = population_equal_weight
@@ -3875,11 +3875,11 @@ country_event = {
 			}
 		}
 		
-		#If Siberia does not exist, 10% to release it and Yakutia and Kamchatka
+		#If Siberia does not exist, 40% to release it and Yakutia and Kamchatka
 		random_owned = {
 			limit = { province_id = 1064 }
 			random = {
-				chance = 10
+				chance = 90
 				any_country = {
 					limit = {
 						tag = SIB
@@ -3927,7 +3927,7 @@ country_event = {
 			}
 		}
 		
-		#If Ural Republic does not exist, 25% to release it
+		#If Ural Republic does not exist, 35% to release it
 		random_owned = {
 			limit = {
 				province_id = 1058
@@ -3936,7 +3936,7 @@ country_event = {
 				}
 			}
 			random = {
-				chance = 25
+				chance = 55
 				any_country = {
 					limit = {
 						tag = URA

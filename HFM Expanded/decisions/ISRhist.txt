@@ -804,7 +804,7 @@ political_decisions = {
 					owner = {
 						NOT = { money = 50000 }
 						NOT = { check_variable = { which = owed_cash_money value = 1 } }
-					} 
+					}
 				}
 				owner = { set_variable = { which = owed_cash_money value = 50 } }
 			}
@@ -822,6 +822,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -899,6 +900,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -968,6 +970,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1033,6 +1036,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1096,6 +1100,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1159,6 +1164,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1225,6 +1231,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1292,6 +1299,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1355,6 +1363,7 @@ political_decisions = {
 				owner = { treasury = -50000 }
 			}
 			set_country_flag = law_of_return_issued
+			add_country_modifier = { name = land_of_opportunity duration = 730 }
 			random_owned = {
 				limit = { owner = { tag = ISR } }
 				owner = {
@@ -1378,7 +1387,7 @@ political_decisions = {
 	 	potential = {
 			tag = ISR
 			has_global_flag = israel_palestine
-			government = fascist_dictatorship
+		#	government = fascist_dictatorship
 	 		NOT = { has_country_flag = greater_israel }
 	 	}
 	 

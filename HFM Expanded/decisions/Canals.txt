@@ -47,7 +47,14 @@ political_decisions = {
 			is_greater_power = yes
 			interchangeable_parts = 1
 			OR = {
-				1755 = { owner = { in_sphere = THIS } }
+				1755 = {
+					owner = {
+						AND = {
+							in_sphere = THIS
+							ai = yes
+						}
+					}
+				}
 				AND = {
 					total_amount_of_ships = 75
 					1755 = { owner = { ai = yes civilized = no part_of_sphere = no } }
@@ -104,12 +111,15 @@ political_decisions = {
 			interchangeable_parts = 1
 			1755 = {
 				owner = {
-					OR = {
-						part_of_sphere = no 
-						in_sphere = THIS
-						AND = {
-							in_sphere = TUR
-							TUR = { ai = yes }
+					and = {
+						ai = yes
+						OR = {
+							part_of_sphere = no 
+							in_sphere = THIS
+							AND = {
+								in_sphere = TUR
+								TUR = { ai = yes }
+							}
 						}
 					}
 				}

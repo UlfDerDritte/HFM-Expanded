@@ -1314,7 +1314,7 @@ political_decisions = {
 			has_country_flag = greater_israel
 			is_greater_power = yes
 			all_core = { owned_by = THIS }
-			government = fascist_dictatorship
+		#	government = fascist_dictatorship
 			NOT = { has_country_flag = absolute_madman_israel }
 		}
 		
@@ -1349,14 +1349,18 @@ political_decisions = {
 			900 = { add_core = ISR }
 			905 = { add_core = ISR }
 			897 = { add_core = ISR }
-			904 = { add_core = ISR }
+			3300 = { add_core = ISR }
 			931 = { add_core = ISR }
 			929 = { add_core = ISR }
 			934 = { add_core = ISR }
 			898 = { add_core = ISR }
+			896 = { add_core = ISR }
 			932 = { add_core = ISR }
 			933 = { add_core = ISR }
 			935 = { add_core = ISR }
+			2639 = { add_core = ISR }
+			3292 = { add_core = ISR }
+			3278 = { add_core = ISR }
 		}
 		
 		ai_will_do = {

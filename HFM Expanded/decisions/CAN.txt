@@ -77,7 +77,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-		
+
 	organize_british_columbia = {
 	picture = organize_british_columbia
 		potential = {
@@ -110,8 +110,10 @@ political_decisions = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							in_sphere = THIS
-							vassal_of = THIS
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 						}
 					}
 				}
@@ -180,11 +182,13 @@ political_decisions = {
 				OR = {
 					government = democracy
 					government = hms_government
+					government = dominion
 				}
 			}
 			OR = {
 				government = democracy
 				government = hms_government
+				government = dominion
 			}
 			exists = CAN
 			any_owned_province = {
@@ -228,7 +232,10 @@ political_decisions = {
 				factor = 0
 				OR = {
 					tag = NEW
-					is_vassal = yes
+					AND = {
+						is_vassal = yes
+						NOT = { overlord = { is_our_vassal = CAN } }
+					}
 				}
 			}
 		}
@@ -701,5 +708,166 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
-	
+	incorporate_new_england = {
+	picture = bytown_1853
+		potential = {
+			OR = {
+				tag = ENG
+				tag = ENL
+				tag = CAN
+			}
+			CAN = { exists = yes }
+			NEN = { exists = yes }
+			NOT = { 
+				NEN = { all_core = { is_core = CAN } }
+			}
+		}
+		allow = {
+			NOT = { war_with = USA }
+			NEN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+							war = no
+						}
+					}
+				}
+			}
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			prestige = 5
+			NEN = { 
+				all_core = { 
+					add_core = CAN
+					remove_core = USA
+				}
+			}
+			NEN = { primary_culture = anglo_canadian }
+			#CAN = { add_accepted_culture = yankee }
+			random_country = {
+				limit = {
+					tag = CAN
+					NEN = { ai = yes }
+				}
+				inherit = NEN
+			}
+			any_owned = {
+				limit = {
+					is_core = NEN
+					CAN = { exists = yes }
+				}
+				secede_province = CAN
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	CAN_claim_NY = {
+		potential = {
+			OR= {
+				tag = CAN
+				tag = ENG
+				tag = ENL
+			}
+			#CAN = { exists = yes }
+			is_vassal = no
+			USA_232 = {
+				NOT = {
+					is_core = CAN
+				}
+			}
+			OR = {
+				is_secondary_power = yes
+				is_greater_power = yes
+				USA_232 = {
+					OR = {
+						owned_by = THIS
+						owned_by = CAN
+					}
+				}
+			}
+			NEN = { all_core = { is_core = CAN } }
+		}
+		allow = {
+			prestige = 75
+			state_n_government = 1
+			OR =  {
+				war_policy = jingoism
+				USA_232 = {
+					OR = {
+						owned_by = THIS
+						owned_by = CAN
+					}
+				}
+			}
+			war = no
+		}
+		effect = {
+			badboy = 5
+			USA_232 = {
+				add_core = CAN
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	CAN_incorporate_NY = {
+		potential = {
+			OR= {
+				tag = CAN
+				tag = ENG
+				tag = ENL
+			}
+			#CAN = { exists = yes }
+			is_vassal = no
+			USA_232 = {
+				AND = {
+					is_core = CAN
+					is_core = USA
+				}
+			}
+			USA_232 = {
+				OR = {
+					owned_by = THIS
+					owned_by = CAN
+				}
+			}
+		}
+		allow = {
+			prestige = 75
+			state_n_government = 1
+			USA_232 = {
+				OR = {
+					owned_by = THIS
+					owned_by = CAN
+				}
+			}
+			war = no
+		}
+		effect = {
+			badboy = 2
+			USA_232 = {
+				remove_core = USA
+			}
+			any_owned = {
+				limit = {
+					region = USA_232
+					CAN = { exists = yes }
+				}
+				secede_province = CAN
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

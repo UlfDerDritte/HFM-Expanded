@@ -1047,8 +1047,10 @@ country_event = {
 					OR = {
 						owned_by = THIS
 						owner = {
-							in_sphere = THIS
-							vassal_of = THIS
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
 							war = no
 						}
 					}
@@ -1968,7 +1970,7 @@ country_event = {
 	}
 }
 
-#Louis Riel and the 1st Métis Rebellion
+#Louis Riel and the 1st Mï¿½tis Rebellion
 country_event = {
 	id = 44301
 	title = "EVTNAME44301"
