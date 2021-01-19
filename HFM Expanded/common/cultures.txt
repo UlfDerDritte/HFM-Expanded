@@ -1315,7 +1315,7 @@ levantine = {
         radicalism = 5
     }
     syriac = {
-        color = {255 100 255}
+        color = {64 111 114}
         first_names = { Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour
         Atom Barsegh Benyamin Deran Eduard Gevorg Gor Gurgen Hayk Hovhannes
         Hovsep Hrant Isahak Karapet Kevork Levon Mkrtich Murad Nubad Papken

@@ -1194,23 +1194,5 @@ political_decisions = {
 		
 		ai_will_do = { factor = 1 }
 	}
-	debug_inherit_hungary = {
-		picture = budapest_city
-		potential = {
-			tag = AUS
-			ai = no
-		}
-		
-		allow = {
-			money = 1
-		}
-		
-		effect = {
-
-		inherit = HUN
-		}
-		
-		ai_will_do = { factor = 1 }
-	}
 }
 

@@ -433,8 +433,8 @@ leader = {
 	name = "Josef Radetzky"
 	date = 1805.1.1
 	type = land
-	personality = au_fait
-	background = elderly
+	personality="implacable"
+	background="school_of_the_bayonet"
 	prestige = 0.3
 }
 

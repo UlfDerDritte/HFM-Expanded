@@ -11520,7 +11520,7 @@ demand_concession_capital = {
 			continent = central_africa 
 			continent = west_africa
 			continent = east_africa
-			continent = south_west_africa
+			continent = south_africa
 		
 			NOT = { total_pops = 500000 }
 			
