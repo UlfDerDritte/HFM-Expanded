@@ -1,5 +1,7 @@
 capital = 917
 primary_culture = french
+culture = syriac
+culture = afro_antillean
 religion = catholic
 government = absolute_monarchy
 plurality = 0
@@ -24,6 +26,9 @@ public_meetings=yes_meeting
 press_rights=censored_press
 trade_unions=no_trade_unions
 political_parties=underground_parties
+
+set_country_flag = catholic_country
+set_country_flag = settle_french
 
 ruling_party = ISR_liberal
 upper_house = 
