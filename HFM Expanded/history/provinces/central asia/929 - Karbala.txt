@@ -1,5 +1,6 @@
-owner = TUR
-controller = TUR
+owner = AZH
+controller = AZH
+add_core = AZH
 add_core = TUR
 add_core = IRQ
 trade_goods = grain
