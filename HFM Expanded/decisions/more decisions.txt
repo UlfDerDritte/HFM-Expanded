@@ -391,6 +391,8 @@ political_decisions = {
 			MOD = { all_core = { add_core = LOM } }
 			TUS = { all_core = { add_core = LOM } }
 			RMG = { all_core = { add_core = LOM } }
+			3251 = { limit = { has_global_flag = disable_microstates } add_core = LOM }
+			3266 = { limit = { has_global_flag = disable_microstates } add_core = SIC }
 			751 = { add_core = SIC }
 			752 = { add_core = SIC }
 			PAP = { all_core = { remove_core = PAP } }

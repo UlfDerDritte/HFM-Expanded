@@ -1245,6 +1245,11 @@ political_decisions = {
 				factor = 0
 				NOT = { year = 1842 }
 			}
+			modifier = {
+				factor = 0
+				NOT = { relation = { who = USA value = 50 } }
+				}
+			}
 		}
 	}
 	rio_grande_treaty = {
