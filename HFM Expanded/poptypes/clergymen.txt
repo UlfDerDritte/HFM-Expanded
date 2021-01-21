@@ -88,27 +88,27 @@ country_migration_target = {
 		unemployment = 0.05
 	}
 	modifier = {
-		factor = 0.2
+		factor = 0.3
 		unemployment = 0.1
 	}
 	modifier = {
-		factor = 0.3
+		factor = 0.5
 		unemployment = 0.15
 	}
 	modifier = {
-		factor = 0.4
+		factor = 0.7
 		unemployment = 0.2
 	}
 	modifier = {
-		factor = 0.5
+		factor = 0.8
 		unemployment = 0.25
 	}
 	modifier = {
-		factor = 0.6
+		factor = 0.9
 		unemployment = 0.3
 	}
 	modifier = {
-		factor = 0.7
+		factor = 0.9
 		unemployment = 0.35
 	}
 	
@@ -200,6 +200,14 @@ country_migration_target = {
 					is_culture_group = italian
 				}	
 			}
+		}
+	}
+	
+	modifier = {
+		factor = 8.00
+		AND = {
+			THIS = { is_culture_group = jewish_cultures }
+			is_culture_group = jewish_cultures
 		}
 	}
 	
