@@ -716,9 +716,9 @@ political_decisions = {
 				tag = ENL
 				tag = CAN
 			}
-			CAN = { exists = yes }
-			NEN = { exists = yes }
-			NOT = { 
+			#CAN = { exists = yes }
+			#NEN = { exists = yes }
+			NOT = {
 				NEN = { all_core = { is_core = CAN } }
 			}
 		}
@@ -752,10 +752,17 @@ political_decisions = {
 			#CAN = { add_accepted_culture = yankee }
 			random_country = {
 				limit = {
-					tag = CAN
+					CAN = { exists = yes }
 					NEN = { ai = yes }
 				}
-				inherit = NEN
+				CAN = { inherit = NEN }
+			}
+			random_country = {
+				limit = {
+					CAN = { exists = no }
+					NEN = { ai = yes }
+				}
+				THIS = { inherit = NEN }
 			}
 			any_owned = {
 				limit = {

@@ -86,9 +86,6 @@ country_event = {
 		set_country_flag = austrian_greater_germany
 		badboy = 40
 		all_core = {
-			limit = {
-				NOT = { is_core = HUN }
-			}
 			add_core = GER
 		}
 		any_owned = {
@@ -176,7 +173,7 @@ country_event = {
 				province_id = 647
 			}
 			SIE = {
-				primary_culture = siebenburger
+				primary_culture = north_german
 				add_accepted_culture = romanian
 				add_accepted_culture = south_german
 			}
@@ -223,6 +220,7 @@ country_event = {
 				NOT = { tag = SLV }
 				NOT = { is_culture_group = south_slavic }
 				NOT = { is_culture_group = italian }
+				NOT = { is_culture_group = french }
 				NOT = { is_culture_group = pan_romanian }
 				NOT = { primary_culture = ukrainian }
 				OR = {

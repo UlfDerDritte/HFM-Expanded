@@ -500,6 +500,7 @@ country_event = {
 			has_country_flag = no_lombardo_venetian_independence
 		}
 		is_possible_vassal = VEN
+		is_possible_vassal = LOM
 		OR = {
 			any_state = {
 				any_owned_province = {

@@ -789,6 +789,7 @@ political_decisions = {
 				tag = AUS
 				tag = AUB
 				tag = KUK
+				tag = SGF
 			}
 			NOT = { exists = GER }
 			NOT = { exists = GCF }
