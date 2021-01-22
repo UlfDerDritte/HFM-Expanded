@@ -1,4 +1,5 @@
 capital = 592
+primary_culture = south_german
 religion = catholic
 government = theocracy
 plurality = 0

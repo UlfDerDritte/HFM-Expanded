@@ -3719,7 +3719,6 @@ country_event = {
     }
 }
 	
-	
 #Fascist Government Coup Puppets - Set Up
 country_event = {
 	id = 443024
