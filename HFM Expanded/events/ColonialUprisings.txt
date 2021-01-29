@@ -991,7 +991,11 @@ province_event = {
 		name = "EVTOPTB14620"
 		state_scope = {
 			any_pop = {
-				limit = { militancy = 4 }
+				limit = {
+					is_primary_culture = no
+					is_accepted_culture = no
+					militancy = 4
+				}
 				reduce_pop = 0.95
 				militancy = -3
 			}

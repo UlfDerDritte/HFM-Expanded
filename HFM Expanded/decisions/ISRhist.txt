@@ -59,7 +59,10 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
-			revolution_n_counterrevolution = 1
+			OR = {
+				revolution_n_counterrevolution = 1
+				ai = no
+			}
 		}
 		effect = {
 			EGY_921 = { add_core = ISR }
@@ -1403,7 +1406,8 @@ political_decisions = {
 	 
 	 	effect = {
 			set_country_flag = greater_israel
-			badboy = 10
+			badboy = 6
+			EGY_921 = { remove_core = PLS }
 			EGY_910 = { add_core = ISR }
 			EGY_1755 = { add_core = ISR }
 			EGY_915 = { add_core = ISR }

@@ -73,13 +73,19 @@ political_decisions = {
 						owned_by = THIS
 						owner = {
 							ai = yes
-							in_sphere = THIS
 							OR = {
-								is_vassal = no
+								AND = {
+									is_vassal = no
+									in_sphere = THIS
+								}
 								vassal_of = THIS
 							}
 							war = no
 							is_greater_power = no
+						}
+						AND = {
+							province_id = 698
+							THIS = { ai = yes }
 						}
 					}
 				}
@@ -90,13 +96,19 @@ political_decisions = {
 						owned_by = THIS
 						owner = {
 							ai = yes
-							in_sphere = THIS
 							OR = {
-								is_vassal = no
+								AND = {
+									is_vassal = no
+									in_sphere = THIS
+								}
 								vassal_of = THIS
 							}
 							war = no
 							is_greater_power = no
+						}
+						AND = {
+							province_id = 3318
+							THIS = { ai = yes }
 						}
 					}
 				}
@@ -120,6 +132,7 @@ political_decisions = {
 					all_core = {
 						add_core = PLC
 						remove_core = POL
+						remove_core = CPL
 					}
 				}
 				LIT = {
@@ -137,9 +150,9 @@ political_decisions = {
 						remove_core = LIT
 					}
 				}
-				POL = {
-					all_core = { add_core = PLC }
-				}
+			}
+			POL = {
+				all_core = { add_core = PLC }
 			}
 			LAT = {
 				all_core = { add_core = PLC }
@@ -148,7 +161,9 @@ political_decisions = {
 				all_core = { add_core = PLC }
 			}
 			RUS_958 = { add_core = PLC }
+			RUS_959 = { add_core = PLC }
 			PRU_695 = { add_core = PLC }
+			694 = { add_core = PLC }
 			any_country = {
 				limit = {
 					OR = {
@@ -162,7 +177,7 @@ political_decisions = {
 				}
 			}
 			change_tag = PLC
-			capital = 703
+			capital = 706
 			any_greater_power = {
 				limit = {
 					OR = {
@@ -285,7 +300,10 @@ political_decisions = {
 						exists = yes
 						owns = 706
 						neighbour = THIS
-						war = no
+						OR = {
+							war = no
+							war_with = RUS
+						}
 						is_vassal = no
 					}
 				}
@@ -298,7 +316,10 @@ political_decisions = {
 						exists = yes
 						owns = 706
 						neighbour = THIS
-						war = no
+						OR = {
+							war = no
+							war_with = RUS
+						}
 						is_vassal = no
 					}
 				}
@@ -622,6 +643,7 @@ political_decisions = {
 
 		potential = {
 			is_greater_power = yes
+			ai = no
 			NOT = {
 				primary_culture = polish
 			}

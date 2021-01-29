@@ -229,18 +229,21 @@ no_trade_policy_set = {
 
 russian_protectionism = {
     min_tariff = 0.15
+    max_tariff = 0.75
     tariff_efficiency_modifier = 0.05
     icon = 9
 }
 
 mercantilism = {
     min_tariff = 0.2
+    max_tariff = 0.75
     tariff_efficiency_modifier = 0.05
     icon = 9
 }
 
 economic_nationalism = {
     min_tariff = 0.2
+    max_tariff = 0.75
     tariff_efficiency_modifier = 0.1
     industry_tech_research_bonus = 0.05
     #influence_modifier = -0.1

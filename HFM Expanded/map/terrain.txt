@@ -318,17 +318,9 @@ categories =  {
 	semidesert = {
 		movement_cost = 1.2
 		color = { 208 155 0 }
-		farm_rgo_size = -0.3
-		farm_rgo_eff = -0.3
-		mine_rgo_size = -0.1
-		mine_rgo_eff = -0.1
 		
-		supply_limit = 2
-		
+		supply_limit = 3
 		combat_width = -0.5
-		
-		min_build_railroad = 1
-		immigrant_attract = -1.5
 		attrition = 1
 	}
 		
@@ -1273,12 +1265,9 @@ categories =  {
 	damascus = {
 		movement_cost = 1.2
 		color = { 22 44 66 }
-		farm_rgo_size = -0.3
-		farm_rgo_eff = -0.3
-		mine_rgo_size = -0.1
-		mine_rgo_eff = -0.1
-		supply_limit = 2
-		min_build_railroad = 2
+		
+		supply_limit = 3
+		combat_width = -0.5
 		attrition = 1
 	}
 
@@ -2647,12 +2636,9 @@ categories =  {
 	mecca = {
 		movement_cost = 1.2
 		color = { 22 44 66 }
-		farm_rgo_size = -0.3
-		farm_rgo_eff = -0.3
-		mine_rgo_size = -0.1
-		mine_rgo_eff = -0.1
-		supply_limit = 2
-		min_build_railroad = 2
+		
+		supply_limit = 3
+		combat_width = -0.5
 		attrition = 1
 	}
 
@@ -2906,12 +2892,9 @@ categories =  {
 	timbuktu = {
 		movement_cost = 1.2
 		color = { 208 155 0 }
-		farm_rgo_size = -0.3
-		farm_rgo_eff = -0.3
-		mine_rgo_size = -0.1
-		mine_rgo_eff = -0.1
-		supply_limit = 2
-		min_build_railroad = 2
+		
+		supply_limit = 3
+		combat_width = -0.5
 		attrition = 1
 	}		
 
@@ -3062,12 +3045,9 @@ categories =  {
 	suez = {
 		movement_cost = 1.2
 		color = { 22 44 66 }
-		farm_rgo_size = -0.3
-		farm_rgo_eff = -0.3
-		mine_rgo_size = -0.1
-		mine_rgo_eff = 1.0
-		supply_limit = 2
-		min_build_railroad = 2
+		
+		supply_limit = 3
+		combat_width = -0.5
 		attrition = 1
 	}
 

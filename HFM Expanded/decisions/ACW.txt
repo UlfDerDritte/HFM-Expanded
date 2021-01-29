@@ -548,8 +548,8 @@ political_decisions = {
 			tag = USA
 			average_consciousness = 1
 			OR = {
-			slavery = yes_slavery
-			slavery = freedom_of_womb
+				slavery = yes_slavery
+				slavery = freedom_of_womb
 			}
 			NOT = {
 				has_country_flag = house_gag_rule_enacted
@@ -1248,7 +1248,6 @@ political_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { relation = { who = USA value = 50 } }
-				}
 			}
 		}
 	}
@@ -1853,6 +1852,44 @@ political_decisions = {
 			112 = { change_province_name = "Cheyenne" add_province_modifier = { name = recently_built_city duration = 180 } }
 			97 = { add_province_modifier = { name = recently_built_city duration = 730 } }
 			96 = { add_province_modifier = { name = recently_built_city duration = 730 } }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+	enslave_the_slaves_again = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			OR = {
+				tag = CSA
+				tag = USA
+			}
+			OR = {
+				slavery = yes_slavery
+				slavery = freedom_of_womb
+			}
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		
+		effect = {
+			money = 3000
+			any_state = {
+				limit = { is_slave = yes }
+				any_pop = {
+					limit = {
+						OR = {
+							pop_type = farmers
+							pop_type = labourers
+						}
+						has_pop_culture = afro_american
+					}
+					pop_type = slaves
+				}
+			}
 		}
 		
 		ai_will_do = { factor = 1 }

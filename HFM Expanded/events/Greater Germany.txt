@@ -25,6 +25,10 @@ country_event = {
 			tag = AUS
 			tag = AUB
 			tag = KUK
+			#AND = {
+			#	tag = SGF
+			#	capital = 619
+			#}
 		}
 		prestige = 45
 		nationalism_n_imperialism = 1
@@ -61,7 +65,7 @@ country_event = {
 		any_owned_province = {
 			NOT = { 
 				OR = {
-					is_core = AUS
+					is_core = THIS
 					is_core = GER
 					is_colonial = yes
 				}
@@ -192,6 +196,12 @@ country_event = {
 		}
 		random_owned = {
 			limit = {
+				province_id = 3330
+			}
+			add_core = BAN
+		}
+		random_owned = {
+			limit = {
 				province_id = 653
 			}
 			BAN = {
@@ -203,6 +213,7 @@ country_event = {
 				OR = {
 					tag = BAN
 					tag = SIE
+					tag = GLM
 				}
 				any_core = {
 					owned_by = THIS
@@ -251,7 +262,9 @@ country_event = {
 				is_cultural_union = no
 			}
 			country_event = 31511
+			capital = 641
 		}
+		SIE = { capital = 657 }
 		any_country = {
 			limit = {
 				is_greater_power = yes

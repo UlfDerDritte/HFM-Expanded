@@ -52,6 +52,7 @@ country_event = {
 		919 = { change_province_name = "Tel Aviv" }
 		916 = { change_province_name = "Nazareth" }
 		918 = { change_province_name = "Samaria" }
+		917 = { state_scope = { change_region_name = "Israel" } }
 		any_country = {
 			limit = { civilized = yes }
 			any_owned = {

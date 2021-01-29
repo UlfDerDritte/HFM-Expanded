@@ -490,7 +490,10 @@ country_event = {
 
     trigger = {
         tag = USA
-        slavery = yes_slavery
+        OR = {
+            slavery = yes_slavery
+            slavery = freedom_of_womb
+        }
         has_country_flag = second_constitutional_convention
         check_variable = {
             which = FSA_states

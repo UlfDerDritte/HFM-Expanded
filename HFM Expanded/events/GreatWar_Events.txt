@@ -4382,6 +4382,7 @@ country_event = {
 			set_country_flag = usstatehood_we_have_applied
 			country_event = 96018
 		}
+		TEX = { capital = 133 }
 
 		#If California does not exist, release it as an ally (with Oregon} 
 		any_country = {
@@ -4399,6 +4400,7 @@ country_event = {
 			set_country_flag = usstatehood_we_have_applied
 			country_event = 96060
 		}
+		CAL = { capital = 104 }
 
 		#If New England does not exist, release it as an ally
 		any_country = {

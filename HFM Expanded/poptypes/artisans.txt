@@ -68,38 +68,41 @@ country_migration_target = {
 		border_policy = quota_immigration
 		THIS = { NOT = { literacy = 0.6 } }
 	}
-	
+
 	modifier = {
-		factor = 0.4
+		factor = 0.1
 		unemployment = 0.05
 	}
 	modifier = {
-		factor = 0.6
+		factor = 0.3
 		unemployment = 0.1
 	}
 	modifier = {
-		factor = 0.8
+		factor = 0.5
 		unemployment = 0.15
 	}
 	modifier = {
-		factor = 1
+		factor = 0.7
 		unemployment = 0.2
 	}
 	modifier = {
-		factor = 1.2
+		factor = 0.8
 		unemployment = 0.25
 	}
 	modifier = {
-		factor = 1.4
+		factor = 0.9
 		unemployment = 0.3
 	}
 	modifier = {
-		factor = 1.6
+		factor = 0.9
 		unemployment = 0.35
 	}
-	
 	modifier = {
-		factor = 0.8
+		factor = 0.1
+		unemployment = 0.5
+	}
+	modifier = {
+		factor = 1.5
 		OR = {
 			is_primary_culture = THIS
 			is_accepted_culture = THIS
@@ -190,6 +193,14 @@ country_migration_target = {
 	}
 	
 	modifier = {
+		factor = 8.00
+		AND = {
+			THIS = { is_culture_group = jewish_cultures }
+			is_culture_group = jewish_cultures
+		}
+	}
+	
+	modifier = {
 		factor = 0
 		government = proletarian_dictatorship
 	}
@@ -203,7 +214,7 @@ country_migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.5
+		factor = 2.0
 		number_of_states = 2
 		has_country_flag = new_world_nation
 		OR = {
@@ -219,13 +230,10 @@ country_migration_target = {
 			government = dominion
 			government = colonial_company
 		}
-		NOT = {
-			tag = ENG
-		}
 	}
 	
 	modifier = {
-		factor = 0.6
+		factor = 1.5
 		NOT = { total_pops = 500000 }
 		NOT = { number_of_states = 2 }
 		has_country_flag = new_world_nation
@@ -239,6 +247,8 @@ country_migration_target = {
 			government = presidential_dictatorship
 			government = hms_government
 			government = constitutional_empire
+			government = dominion
+			government = colonial_company
 		}
 	}
 	
@@ -268,7 +278,7 @@ country_migration_target = {
 
 migration_target = {
 	factor = 0.01
-	#Audax Validator "." Ignore_1001
+	
 	modifier = {
 		factor = 0.1
 		unemployment = 0.1
@@ -276,7 +286,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.1
+		factor = 1.2
 		NOT = { total_pops = 5000 }
 		year = 1850
 		OR = { 
@@ -286,9 +296,10 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.5
+		factor = 5.0
 		NOT = { total_pops = 500 }
 	}
+	
 	
 	modifier = {
 		factor = 1.4
@@ -300,20 +311,19 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		total_pops = 150000
-	}
-
+	}	
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		total_pops = 250000
 	}
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		total_pops = 500000
 	}
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		total_pops = 750000
 	}
 	
@@ -323,7 +333,7 @@ migration_target = {
 		country = { border_policy = closed_borders }
 	}
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		has_pop_culture = THIS
 	}
 	
@@ -339,12 +349,12 @@ migration_target = {
 	#}
 	
 	modifier = {
-		factor = 0.2
+		factor = 1.2
 		has_pop_religion = THIS
 	}
 	modifier = {
-		factor = 0.5
-		any_core = { is_primary_culture = THIS }
+		factor = 1.5
+		any_core = { is_primary_culture = yes }
 	}
 	modifier = {
 		factor = 0.25
@@ -354,30 +364,30 @@ migration_target = {
 		}
 	}
 	modifier = {
-		factor = 1
+		factor = 2
 		is_state_capital = yes
 	}		
 	modifier = {
-		factor = 0.5
+		factor = 1.0
 		is_capital = yes
 	}
 	modifier = {
 		factor = 1.05
 		is_coastal = yes
 	}
-
+	
 	modifier = {
-		factor = 0.4
+		factor = 0.5
 		terrain = steppe
 	}
 	
 	modifier = {
-		factor = 0.2
+		factor = 0.7
 		terrain = savanna
 	}
 	
 	modifier = {
-		factor = 0.2
+		factor = 0.6
 		OR = {
 			terrain = dryhills
 			terrain = dry_mountains
@@ -385,7 +395,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.15
+		factor = 0.5
 		OR = {
 			terrain = jungle
 			terrain = new_world_jungle
@@ -396,22 +406,22 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.4
+		factor = 0.6
 		terrain = mountain
 	}
 	
 	modifier = {
-		factor = 0.3
+		factor = 0.6
 		terrain = montane_forest
 	}
 	
 	modifier = {
-		factor = 0.3
+		factor = 0.6
 		terrain = marsh
 	}
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.35
 		OR = { 
 			terrain = semidesert
 			terrain = semi_desert_mountains
@@ -485,7 +495,7 @@ migration_target = {
 			continent = west_africa
 			continent = east_africa
 			continent = central_africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 	}
 	
@@ -496,7 +506,7 @@ migration_target = {
 			continent = east_africa
 			continent = central_africa
 			continent = africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 		country = { primary_culture = russian }
 	}
@@ -510,7 +520,7 @@ migration_target = {
 			continent = central_africa
 			continent = oceania #Near East
 			continent = africa
-			continent = south_west_africa
+			continent = south_africa
 		}
 		country = { colonial_policy = settlement primary_culture = russian }
 	}
@@ -522,7 +532,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.0
+		factor = 2.5
 		OR = { 
 			state_id = 409
 			state_id = 411
@@ -537,13 +547,13 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.0
+		factor = 1.1
 		OR = { 
 			state_id = 354
 			state_id = 350
 			state_id = 690
 			state_id = 699
-			continent = south_west_africa
+			continent = south_africa
 			state_id = 409
 			state_id = 411
 		}
@@ -560,7 +570,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.0
+		factor = 2.0
 		OR = { 
 			is_core = KOR
 			is_core = KAM
@@ -569,7 +579,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.5
+		factor = 1.5
 		OR = { 
 			is_core = MEX
 			is_core = CAN
@@ -607,7 +617,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.6
+		factor = 2.0
 		OR = {
 			continent = australia_new_zealand
 			continent = north_america
@@ -620,7 +630,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.3
+		factor = 1.0
 		OR = { 
 			continent = africa
 			state_id = 2033
@@ -642,7 +652,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.5
+		factor = 2.0
 		OR = { 
 			is_core = RHI
 			is_core = WAL
@@ -658,7 +668,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.5
+		factor = 2.0
 		OR = { 
 			continent = africa
 			continent = east_africa
@@ -677,7 +687,7 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 0.5
+		factor = 2.5
 		OR = {
 			is_core = YNN
 			is_core = IMG
@@ -701,41 +711,11 @@ migration_target = {
 	}
 	
 	modifier = {
-		factor = 1.05
-		country = { colonial_nation = no }
-		OR = {
-			country = { penal_system = colonial_transportation }
-			country = { colonial_policy = settlement }
-		}
-		OR = {
-			trade_goods = coal
-			trade_goods = sulphur
-			trade_goods = iron
-			trade_goods = precious_metal
-			trade_goods = tobacco
-			trade_goods = coffee
-			trade_goods = tea
-		}
-		OR = {
-			terrain = desert
-			terrain = arctic
-			terrain = semidesert
-			terrain = semi_desert_mountains
-			terrain = new_world_semidesert
-			terrain = coastal_desert
-			terrain = boreal
-			terrain = small_island
-			terrain = montane_tundra
-			terrain = coral_island
-		}
-	}
-
-	modifier = {
-		factor = 0.4
+		factor = 0.8
 		life_rating = 40
 	}
 	modifier = {
-		factor = 0.5
+		factor = 1
 		life_rating = 50
 	}
 }
@@ -938,8 +918,10 @@ promote_to =
 			state_scope = { 
 				is_colonial = yes 
 				NOT = { total_pops = 80000 }
-			}	
-			country = { NOT = { has_country_flag = berlin_conference } }
+				NOT = { continent = north_america }
+				NOT = { continent = south_america }
+			}
+			NOT = { has_global_flag = berlin_conference }
 		}
 		
 		modifier = {

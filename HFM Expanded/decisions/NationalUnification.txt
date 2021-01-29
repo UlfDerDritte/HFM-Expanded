@@ -450,7 +450,10 @@ political_decisions = {
 			NOT = { has_country_flag = post_colonial_country }
 			OR = {
 				tag = NGF
-				tag = SGF
+				AND = {
+					tag = SGF
+					NOT = { capital = 619 }
+				}
 			}
 			NOT = { exists = GER exists = GCF }
 		}
@@ -785,11 +788,10 @@ political_decisions = {
 		news_desc_medium = "form_germany_NEWS_MEDIUM"
 		news_desc_short = "form_germany_NEWS_SHORT"
 		potential = {
-			OR = { 
+			OR = { 	
 				tag = AUS
 				tag = AUB
 				tag = KUK
-				tag = SGF
 			}
 			NOT = { exists = GER }
 			NOT = { exists = GCF }
@@ -984,7 +986,7 @@ political_decisions = {
 				}
 			}
 			inherit = SGF
-			change_tag = SGF
+		#	change_tag = SGF
 			political_reform = federalism
 			remove_accepted_culture = hungarian
 		}

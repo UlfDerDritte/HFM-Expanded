@@ -14348,7 +14348,7 @@
 
 }
 
-# Gävle
+# Gï¿½vle
 317 = {
     unit = {
         x = 3056.000000
@@ -14443,7 +14443,7 @@
 
 }
 
-# Östersund
+# ï¿½stersund
 319 = {
     unit = {
         x = 3027.000000
@@ -14504,7 +14504,7 @@
 
 }
 
-# Umeå
+# Umeï¿½
 320 = {
     text_position = {
         x = 3102.699951
@@ -14552,7 +14552,7 @@
 
 }
 
-# Luleå
+# Luleï¿½
 321 = {
     text_position = {
         x = 3154.240000
@@ -14750,7 +14750,7 @@
 
 }
 
-# Norrköping
+# Norrkï¿½ping
 325 = {
     unit = {
         x = 3052.000000
@@ -14792,7 +14792,7 @@
 
 }
 
-# Västerås
+# Vï¿½sterï¿½s
 326 = {
     unit = {
         x = 3062.000000
@@ -14873,7 +14873,7 @@
 
 }
 
-# Örebro
+# ï¿½rebro
 327 = {
     unit = {
         x = 3040.000000
@@ -14992,7 +14992,7 @@
 
 }
 
-# Göteborg
+# Gï¿½teborg
 329 = {
     unit = {
         x = 2988.000000
@@ -15049,7 +15049,7 @@
 
 }
 
-# Borås
+# Borï¿½s
 330 = {
     unit = {
         x = 3011.000000
@@ -15196,7 +15196,7 @@
 
 }
 
-# Växjö
+# Vï¿½xjï¿½
 333 = {
     unit = {
         x = 3031.000000
@@ -15234,7 +15234,7 @@
 
 }
 
-# Malmö
+# Malmï¿½
 334 = {
     unit = {
         x = 3013.000000
@@ -16188,7 +16188,7 @@
 
 }
 
-# Ösel
+# ï¿½sel
 353 = {
     text_position = {
         x = 3155.491667
@@ -28420,7 +28420,7 @@
 
 }
 
-# Resicabánya
+# Resicabï¿½nya
 653 = {
     text_position = {
         x = 3150.808333
@@ -30052,7 +30052,7 @@
 
 }
 
-# Königsberg
+# Kï¿½nigsberg
 695 = {
     text_position = {
         x = 3137.963333
@@ -35121,8 +35121,8 @@
 # Plovdiv
 815 = {
     text_position = {
-        x = 3200.550000
-        y = 1465.650000
+        x = 3200.570000
+        y = 1465.70000
     }
 
     text_scale = 2.500000
@@ -35658,12 +35658,12 @@
 # Edirne
 828 = {
     text_position = {
-        x = 3223.000000
+        x = 3223.001000
         y = 1462.133333
     }
 
     text_rotation = 1.221731
-    text_scale = 2.400000
+    text_scale = 2.000000
     unit = {
         x = 3221.786667
         y = 1462.530000
@@ -35769,14 +35769,14 @@
 830 = {
     text_position = {
         x = 3216.850000
-        y = 1465.400000
+        y = 1465.500000
     }
 
-    text_rotation = 0.374001
-    text_scale = 1.100000
+    text_rotation = 1.231731
+    text_scale = 1.150000
     factory = {
         x = 3217.483333
-        y = 1462.566667
+        y = 1462.866667
     }
 
     building_construction = {
@@ -35800,15 +35800,6 @@
             y = 1464.000000
         }
 
-        naval_base = {
-            x = ""
-            y = ""
-        }
-
-    }
-
-    building_rotation = {
-        naval_base = 4.712390
     }
 
 }
@@ -37005,12 +36996,12 @@
 # Kirklareli
 858 = {
     text_position = {
-        x = 3230.515000
+        x = 3230.555000
         y = 1456.430000
     }
 
     text_rotation = 0.423311
-    text_scale = 2.300000
+    text_scale = 2.000000
     factory = {
         x = 3238.603333
         y = 1459.535000
@@ -37259,15 +37250,6 @@
             y = 1430.000000
         }
 
-        naval_base = {
-            x = 3222.199951
-            y = 1423.500000
-        }
-
-    }
-
-    building_rotation = {
-        naval_base = 0.698132
     }
 
 }
@@ -94333,7 +94315,7 @@
 
 }
 
-# León
+# Leï¿½n
 2199 = {
     unit = {
         x = 1459.000000
@@ -96502,7 +96484,7 @@
 
 }
 
-# Ibagué
+# Ibaguï¿½
 2248 = {
     text_position = {
         x = 1633.000000
@@ -102241,7 +102223,7 @@
 
 }
 
-# Neuquén
+# Neuquï¿½n
 2391 = {
     text_position = {
         x = 1718.000000
@@ -116046,7 +116028,7 @@
 
 }
 
-# Vänern
+# Vï¿½nern
 2703 = {
     unit = {
         x = 3016.000000
@@ -116062,7 +116044,7 @@
     text_scale = 2.200000
 }
 
-# Vättern
+# Vï¿½ttern
 2704 = {
     text_position = {
         x = 3031.899902
@@ -116089,7 +116071,7 @@
     text_scale = 3.099999
 }
 
-# Ålands Hav
+# ï¿½lands Hav
 2706 = {
     unit = {
         x = 3115.000000
@@ -116166,7 +116148,7 @@
     text_scale = 3.099999
 }
 
-# Öresund
+# ï¿½resund
 2711 = {
     unit = {
         x = 2987.000000
@@ -116198,7 +116180,7 @@
     text_scale = 3.099999
 }
 
-# Peipsi Järv
+# Peipsi Jï¿½rv
 2713 = {
     unit = {
         x = 3233.000000
@@ -125238,15 +125220,6 @@
             y = 1441.910000
         }
 
-        naval_base = {
-            x = 3414.555000
-            y = 1456.738333
-        }
-
-    }
-
-    building_rotation = {
-        naval_base = 1.570796
     }
 
 }
