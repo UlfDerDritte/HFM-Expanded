@@ -1,13 +1,13 @@
 ;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ;;;;;;x;;;;
 SXI_colonial_company;Shaan-Gan;;;;;;;;;;;;x
-RGA_liberal_2;Rï¿½publicains modï¿½rï¿½s;;;;;;;;;;;;x
-RGA_conservative_2;Front Algï¿½rie Franï¿½aise;;;;;;;;;;;;x
-RGA_socialist;Section Algï¿½rie de l'Internationale ouvriï¿½re;;;;;;;;;;;;x
-RGA_reactionary_2;Action Algï¿½rie;;;;;;;;;;;;x
+RGA_liberal_2;Républicains modérés;;;;;;;;;;;;x
+RGA_conservative_2;Front Algérie Française;;;;;;;;;;;;x
+RGA_socialist;Section Algérie de l'Internationale ouvrière;;;;;;;;;;;;x
+RGA_reactionary_2;Action Algérie;;;;;;;;;;;;x
 RGA_radical;Parti radical;;;;;;;;;;;;x
-RGA_communist;Parti Communiste Algï¿½rien;;;;;;;;;;;;x
-RGA_fascist;Organisation Armï¿½e Secrï¿½te;;;;;;;;;;;;x
+RGA_communist;Parti Communiste Algérien;;;;;;;;;;;;x
+RGA_fascist;Organisation Armée Secrète;;;;;;;;;;;;x
 RGA_democracy;Algerie;;;;;;;;;;;;;x,
 RGA_democracy_ADJ;French;;;;;;;;;;;;;x,
 RGA_colonial_company;Algerie;;;;;;;;;;;;;x,
@@ -45,8 +45,8 @@ MOR_reactionary;Sulalat al-Alawiyyin al-Filaliyn;;;;;;;;;;;;;x
 MEX_absolute_empire;The Mexican Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
 MEX_semi_constitutional_empire;The Mexican Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 MEX_constitutional_empire;The Mexican Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
-BRZ_absolute_empire;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,;;;;;;;
-BRZ_semi_constitutional_empire;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,;;;;;;;;
+BRZ_absolute_empire;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,
+BRZ_semi_constitutional_empire;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 BRZ_constitutional_empire;The Empire of Brazil;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;X,,,,,,,,,
 PNJ_absolute_empire;The Sikh Empire;;;;;;;;;;;;;x
 PNJ_semi_constitutional_empire;The Sikh Empire;;;;;;;;;;;;;x
@@ -119,8 +119,8 @@ YEM_conservative;Imam's Faction;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 YEM_reactionary;Zaidiyyah Council;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OMA_conservative;Al-Said;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KWT_conservative;Amir's Faction;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAI_conservative;Nhï¿½ Nguyen;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-DAI_liberal;Nhï¿½ Nguyen;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAI_conservative;Nhà Nguyen;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DAI_liberal;Nhà Nguyen;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MLD_conservative;Sultan's Faction;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ATJ_conservative;Sultan's Faction;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 KTI_conservative;Sultan's Faction;Faction Sultan;Sultan Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -194,14 +194,14 @@ SVA_ADJ;Svan;;;;;;;;;;;;x
 SVA;Svaneti;;;;;;;;;;;;x
 SLS_colonial_company;Schlesien;;;;;;;;;;;;;x,
 SLS_dominion;Schlesien;;;;;;;;;;;;;x,
-PML_colonial_company;Westpreuï¿½en;;;;;;;;;;;;;x,
+PML_colonial_company;Westpreußen;;;;;;;;;;;;;x,
 PML_dominion;Westpreu?en;;;;;;;;;;;;;x,
 PZN_colonial_company;Posen;;;;;;;;;;;;;x,
 PZN_dominion;Posen;;;;;;;;;;;;;x,
 POL_colonial_company;Generalgouvernement;;;;;;;;;;;;;x,
 POL_dominion;Generalgouvernement;;;;;;;;;;;;;x,
-BOH_colonial_company;Protektorat Bï¿½hmen-Mï¿½hren;;;;;;;;;;;;;x,
-BOH_dominion;Bï¿½hmen-Mï¿½hren;;;;;;;;;;;;;x,
+BOH_colonial_company;Protektorat Böhmen-Mähren;;;;;;;;;;;;;x,
+BOH_dominion;Böhmen-Mähren;;;;;;;;;;;;;x,
 SCH_colonial_company;Slesvig;;;;;;;;;;;;;x,
 SCH_dominion;Slesvig;;;;;;;;;;;;;x,
 HOL_colonial_company;Holsten;;;;;;;;;;;;;x,
@@ -218,7 +218,7 @@ AUS_conservative_3;Bach's Faction;Faction de Bach;Bach's Faction;;Facci? de Bach
 AUS_conservative_4;The Iron Ring;Iron Ring;The Iron Ring;;El Anillo de Hierro;;;;;;;;;x;;;;
 AUS_socialist_2;Socialists;Socialistes;Socialists;;Socialistas;;;;;;;;;x;;;;
 AUS_reactionary_2;Christlichsoziale Partei;Radicaux allemands;German Radicals;;Radicales alemanes;;;;;;;;;x;;;;
-AUS_conservative_5;Sozialdemokratische Partei ï¿½sterreichs;Conservateurs;Conservatives;;Conservadores;;;;;;;;;x;;;;
+AUS_conservative_5;Sozialdemokratische Partei Österreichs;Conservateurs;Conservatives;;Conservadores;;;;;;;;;x;;;;
 AUS_liberal_2;F?deralistische;Grands propri?aires f??alistes;Federalist Great Proprietors;;Grandes Pro;;;;;;;;;x;;;;
 MLW_dominion;Nyasaland;;;;;;;;;;;;x
 MLW_colonial_company;Nyasaland;;;;;;;;;;;;;x,
@@ -327,7 +327,7 @@ MCK_colonial_company;Dong Sansheng;;;;;;;;;;;;;x,
 MCK_colonial_company_ADJ;Qing;;;;;;;;;;;;;x
 XIN_colonial_company_ADJ;Qing;;;;;;;;;;;;;x
 TST;Alto Adige;;;;;;;;;x;;;;;;;;
-TST_colonial_company;Sï¿½dtirol;;;;;;;;;;;;;;x
+TST_colonial_company;Südtirol;;;;;;;;;;;;;;x
 LOM_colonial_company;Lombardo-Venetien;;;;;;;;;;;;;;x
 LOM_dominion;Lombardo-Venetien;;;;;;;;;;;;;;x
 HQJ_ADJ;Black Flag;;;;;;;;;x;;;;;;;;
@@ -367,8 +367,8 @@ BAN_colonial_company;Freistaat Banat;;;;;;;;;;;;;x
 BAN_dominion;Freistaat Banat;;;;;;;;;;;;;x
 SIE_colonial_company;Siebenburgen;;;;;;;;;;;;;x
 SIE_dominion;Siebenburgen;;;;;;;;;;;;;x
-SIE_colonial_company_ADJ;Siebenbï¿½rger;;;;;;;;;;;;;x
-SIE_dominion_ADJ;Siebenbï¿½rger;;;;;;;;;;;;;x
+SIE_colonial_company_ADJ;Siebenbürger;;;;;;;;;;;;;x
+SIE_dominion_ADJ;Siebenbürger;;;;;;;;;;;;;x
 SIE_reactionary;Sachsen Landtag;;;;;;;;;;;;;x,
 SIE_conservative;Unio Trium Nationum;;;;;;;;;;;;;x,
 LBY_colonial_company;Libia;;;;;;;;;;;;;x,
@@ -493,8 +493,8 @@ CGC_ADJ;Spanish;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 VNG_colonial_company;Virreinato de la Nueva Granada;;;;;;;;;;;;;x,
 VNG;Nueva Granada;;;;;;;;;;;;;x,
 VNG_ADJ;Spanish;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-VLP_colonial_company;Virreinato del Rï¿½o de la Plata;;;;;;;;;;;;;x,
-VLP;Rï¿½o de la Plata;;;;;;;;;;;;;x,
+VLP_colonial_company;Virreinato del Río de la Plata;;;;;;;;;;;;;x,
+VLP;Río de la Plata;;;;;;;;;;;;;x,
 VLP_ADJ;Spanish;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 VOP_colonial_company;Virreinato del Peru;;;;;;;;;;;;;x,
 VOP;Peru;;;;;;;;;;;;;x,
@@ -510,9 +510,9 @@ JAP_absolute_monarchy;Imperial Japan;;;;;;;;;;;;x,
 JAP_prussian_constitutionalism;The Empire of Japan;;;;;;;;;;;;x,
 JAP_hms_government;The Empire of Japan;;;;;;;;;;;;x,
 JAP_absolute_monarchy_ADJ;Nippon;Nippon;Nippon;;;;;;;;;;;x,
-MEX_absolute_monarchy;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de Mï¿½xico;;;;;;;;;x
-MEX_prussian_constitutionalism;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de Mï¿½xico;;;;;;;;;x
-MEX_hms_government;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de Mï¿½xico;;;;;;;;;x
+MEX_absolute_monarchy;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de México;;;;;;;;;x
+MEX_prussian_constitutionalism;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de México;;;;;;;;;x
+MEX_hms_government;The Empire of Mexico;Empire du Mexique;Mexikanisches Kaiserreich;;Imperio de México;;;;;;;;;x
 FRA_proletarian_dictatorship;The Commune of France;;;;;;;;;;;;;x,
 FRA_presidential_dictatorship;The French Republic;;;;;;;;;;;;;x,
 FRA_parliamentary_republic;The French Republic;;;;;;;;;;;;;x,
@@ -567,10 +567,10 @@ NIA_conservative;Zhang Lexing Faction;;;;;;;;;;;;x
 IMG;Mengjiang;;;;;;;;;;;;;x
 IMG_colonial_company;Nei Menggu;;;;;;;;;;;;;x
 IMG_ADJ;Mongolian;;;;;;;;;;;;;x
-IMG_liberal_2;Amban's Faction;Parti libï¿½ral;Liberale Partei;;;;;;;;;;;x
+IMG_liberal_2;Amban's Faction;Parti libéral;Liberale Partei;;;;;;;;;;;x
 IMG_conservative_2;Amban's Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
 IMG_reactionary_2;Amban's Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
-MGL_liberal;Amban's Faction;Parti libï¿½ral;Liberale Partei;;;;;;;;;;;x
+MGL_liberal;Amban's Faction;Parti libéral;Liberale Partei;;;;;;;;;;;x
 MGL_conservative;Amban's Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
 MGL_reactionary;Amban's Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
 MIT;Mittelafrika;;;;;;;;;;;;;;x
