@@ -1823,7 +1823,12 @@ witwatersrand_gold_rush = {
 	prestige = 0.01
 	icon = 11
 }
-
+kimberley_goldrush = {
+    immigrant_attract = 5      #300%
+    life_rating = 0.5
+    population_growth = 0.01
+    icon = 11
+}
 ##### RGO Spread Events #####
 local_tractors = {
     farm_RGO_eff = 0.5
@@ -3840,4 +3845,12 @@ kebabbies_wait = {
 merchant_marine = {
     import_cost = 0.50
     icon = 15
+}
+craftsmen_fix_cooldown = {
+    icon = 12
+}
+###Latin Monetary Union###
+latin_monetary_union = {
+    tax_efficiency = 0.05
+    icon = 9
 }

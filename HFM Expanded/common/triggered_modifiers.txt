@@ -217,7 +217,14 @@ education_fully_funded = {
     education_efficiency_modifier = 0.1
     icon = 19
 }
-
+dictatorship = {
+	trigger = {
+		has_country_flag = new_world_nation
+		government = presidential_dictatorship
+		government = fascist_dictatorship
+	}
+	global_immigrant_attract = -5
+}
 neglected_education = {
     trigger = {
         exists = yes
@@ -852,6 +859,14 @@ help_ai_usa = {
 	supply_consumption = -0.05
 	influence_modifier = -0.05
 	mobilisation_size = 0.01
+}
+help_ai_usa2 = {
+	trigger = {
+		tag = USA
+	}
+	icon = 10
+	tax_efficiency = 0.05
+	global_immigrant_attract = 2.5
 }
 
 yellow_river = {
@@ -1596,6 +1611,9 @@ collectivisation_modifier = {
 		government = proletarian_dictatorship	
 	}
 	mobilisation_size = 0.02
+    education_efficiency_modifier = 1
+    poor_income_modifier = 10
+    middle_income_modifier = 5
 	tax_efficiency = 0.05
 	factory_throughput = 0.05
 	mine_rgo_eff = 0.1

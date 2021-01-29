@@ -3370,6 +3370,13 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
+    acadian = { 
+        color = {168 255 249}
+        first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+        }
+        last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+        }
+    }
 	alaskan = {
 		color = { 14 139 80 }
 			first_names = {Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
@@ -3581,7 +3588,7 @@ african_diaspora_cultures = {
 		Goddard Hall Henson Holder James Jones Julian Kilgour Lassalle Lovelace
 		McIntosh Nurse Perry Roberts Robinson Shadd Stollmeyer Sylvester Williams Young }
 	}
-	afro_caribeno = { 
+	afro_latino = { 
 		color = {12 83 12}
 		first_names = { Antonio Armando Arsenio Arturo Bartolomé Carlos Dámaso Enrique Francisco Generoso
 		Guillermo Gumersindo Ignacio Israel Jacinto Jaime "José Celso" Juan Luciano Mario
@@ -3601,7 +3608,7 @@ african_diaspora_cultures = {
 		"de Souza" "dos Reis" "dos Santos" Fidalgo Filho Gil Gomes "Machado de Assis" Nunes Oliveira
 		Otelo Paim Pandeiro Peçanha Pereira Pitanga Rodrigues Santos Silva Teixeira }
 	}
-	afro_antillean = { 
+	afro_french = { 
 		color = {24 44 49}
 		first_names = { Alexis André Anténor Antoine Augustin Balthazar Beaubrun Céligny Charlemagne Charles
 			Cincinnatus Dantès Demesvar Denys Emmanuel Eugène Fabre Faustin Florvil François
@@ -3671,7 +3678,6 @@ african_diaspora_cultures = {
             Yvel "La Rose" Ignacio Hoost Overeem Manhoef Salome "van Dijk" "van Kallen" Vandenbranden "Van den Branden" Schomburg
         }
     }
-	
 }
 
 west_african = {

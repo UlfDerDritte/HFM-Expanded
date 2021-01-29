@@ -1,6 +1,8 @@
-capital = 2447
+capital = 521
 primary_culture = portuguese
 culture = brazilian
+culture = afrobrazilian
+culture = galician
 religion = catholic
 government = hms_government
 plurality = 0.0
@@ -44,7 +46,7 @@ upper_house = {
 	liberal = 18
 	conservative = 57
 	reactionary = 25
-	anarcho_liberal = 0
+	radical = 0
 	socialist = 0
 	communist = 0
 }

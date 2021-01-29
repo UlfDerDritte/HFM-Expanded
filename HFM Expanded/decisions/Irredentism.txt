@@ -1071,7 +1071,7 @@ political_decisions = {
 		allow = {
 			war = no
 			is_vassal = no
-			nationalism_n_imperialism = 1
+			prestige = 30
 			OR = {
 				war_policy = jingoism
 				war_policy = pro_military
@@ -1082,6 +1082,7 @@ political_decisions = {
 			badboy = 3
 			2538 = { add_core = BAN }
 			791 = { add_core = BAN }
+			3330 = { add_core = BAN }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -1588,6 +1589,25 @@ political_decisions = {
 			}
 		}
 	}
-	
+	grand_duchy_lit = {
+		picture = the_new_army
+		potential = {
+			tag = LIT
+			NOT = { has_country_flag = grand_duchy_lit }
+		}
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+			war_policy = jingoism
+		}
+		effect = {
+			set_country_flag = grand_duchy_lit
+			badboy = 10
+			BYE = { all_core = { add_core = LIT } }
+			945 = { remove_core = LIT}
+			944 = { remove_core = LIT}
+			949 = { remove_core = LIT}
+		}
+	}
 }
-
