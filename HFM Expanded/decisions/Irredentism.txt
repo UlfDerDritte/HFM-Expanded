@@ -1187,28 +1187,32 @@ political_decisions = {
 				33 = { badboy = 10 }
 			}
 			648 = { 
-				add_core = ROM 
+				add_core = ROM
 				add_core = BGR
 			}
 			650 = { 
-				add_core = ROM 
-				add_core = BGR 
+				add_core = ROM
+				add_core = BGR
 			}
 			649 = { 
-				add_core = ROM 
-				add_core = BGR 
+				add_core = ROM
+				add_core = BGR
 			}
 			3331 = { 
-				add_core = ROM 
-				add_core = BGR 
+				add_core = ROM
+				add_core = BGR
 			}
 			792 = { 
-				add_core = ROM 
-				add_core = BGR 
+				add_core = ROM
+				add_core = BGR
 			}
 			795 = { 
-				add_core = ROM 
-				add_core = BGR 
+				add_core = ROM
+				add_core = BGR
+			}
+			3347 = { 
+				add_core = ROM
+				add_core = BGR
 			}
 		}
 		ai_will_do = { factor = 1 }
@@ -1270,7 +1274,7 @@ political_decisions = {
 			is_greater_power = yes
 			invention = manifest_destiny
 			invention = nostalgic_romanticism
-			government = fascist_dictatorship
+		#	government = fascist_dictatorship
 		}
 		
 		effect = {

@@ -1751,15 +1751,19 @@ conversion_chance = {
 	
 	modifier = {
 		factor = -0.95
-		OR = {
-			has_pop_religion = jewish
-			has_pop_religion = mormon
-			has_pop_religion = shiite
-			has_pop_religion = sunni
-			has_pop_religion = ibadi
-			AND = {
-				has_pop_religion = shinto
-				has_culture_core = yes
+		AND = {
+			is_primary_culture = no
+			is_accepted_culture = no
+			OR = {
+				has_pop_religion = jewish
+				has_pop_religion = mormon
+				has_pop_religion = shiite
+				has_pop_religion = sunni
+				has_pop_religion = ibadi
+				AND = {
+					has_pop_religion = shinto
+					has_culture_core = yes
+				}
 			}
 		}
 	}
@@ -1812,7 +1816,7 @@ conversion_chance = {
 	modifier = {
 		factor = 0.05
 		has_pop_religion = animist
-		location = { 
+		location = {
 			OR = {
 				continent = indochina
 				continent = east_indies
@@ -1830,16 +1834,16 @@ conversion_chance = {
 	
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.5
 		country = { government = theocracy }
 	}
 	
 	modifier = {
-		factor = 0.1
+		factor = 0.5
 		country = { religious_policy = moralism }
 	}
 	modifier = {
-		factor = 0.05
+		factor = 0.15
 		country = { religious_policy = pluralism }
 	}
 	modifier = {

@@ -2932,7 +2932,7 @@ country_event = {
 		clr_country_flag = democracy_gov
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
-		clr_country_flag = anarcho_liberal_gov
+		clr_country_flag = radical_gov
 	}
 }
 
@@ -2978,7 +2978,7 @@ country_event = {
 		clr_country_flag = democracy_gov
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
-		clr_country_flag = anarcho_liberal_gov
+		clr_country_flag = radical_gov
 		government = constitutional_empire
 		random_owned = { limit = { owner = { border_policy = closed_borders } } owner = { political_reform = open_borders } }
 	}

@@ -750,7 +750,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		
 		supply_limit = 6
-		min_build_railroad = 1
 		combat_width = -0.33
 	}
 	turin = {
@@ -1046,7 +1045,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		
 		supply_limit = 6
-		min_build_railroad = 1
 		combat_width = -0.33
 	}
 	rennes = {
