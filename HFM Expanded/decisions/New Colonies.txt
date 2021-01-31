@@ -5096,8 +5096,8 @@ political_decisions = {
             random_owned = {
                 limit = {
                     owner = {
-                        owns = 1818
-                        1821 = { empty = yes }
+                        owns = 1821
+                        1826 = { empty = yes }
                         OR = {
                             invention = the_dark_continent
                             AND = {
@@ -5107,9 +5107,6 @@ political_decisions = {
                         }
                     }
                 }
-                1821 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 27 }
-                1824 = { secede_province = THIS any_pop = { literacy = -0.99 } life_rating = 27 }
-                1825 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 1826 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 owner = { prestige = 1 }
             }
@@ -5130,7 +5127,6 @@ political_decisions = {
                 }
                 1812 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 1814 = { secede_province = THIS any_pop = { literacy = -0.99 } }
-                1817 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 owner = { prestige = 1 }
             }
             #Owner of Timbuktu gets rest of Timbuktu state
@@ -5150,6 +5146,7 @@ political_decisions = {
                 }
                 2609 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 1807 = { secede_province = THIS any_pop = { literacy = -0.99 } }
+                3431 = { secede_province = THIS any_pop = { literacy = -0.99 } }
                 owner = { prestige = 1 }
             }
             #Owner of Mauretania gets the rest of Mauretania
@@ -5208,25 +5205,25 @@ political_decisions = {
                 owner = { prestige = 1 }
             }
             #Owner of Al Jaghbub gets Al Jawf, Libya
-            random_owned = {
-                limit = {
-                    owner = {
-                        owns = 1738
-                        2585 = { empty = yes }
-                        has_global_flag = libya_organized
-                    }
-                }
-                2585 = { secede_province = THIS add_core = LBY any_pop = { literacy = -0.99 } }
-                owner = { prestige = 1 }
-            }
-            random_owned = {
-                limit = { owner = { 1741 = { owned_by = THIS is_core = THIS } } }
-                1742 = { add_core = THIS }
-            }
-            random_owned = {
-                limit = { owner = { 1738 = { owned_by = THIS is_core = THIS } } }
-                2585 = { add_core = THIS add_core = CYR }
-            }
+            #random_owned = {
+            #    limit = {
+            #        owner = {
+            #            owns = 1738
+            #            2585 = { empty = yes }
+            #            has_global_flag = libya_organized
+            #        }
+            #    }
+            #    2585 = { secede_province = THIS add_core = LBY any_pop = { literacy = -0.99 } }
+            #    owner = { prestige = 1 }
+            #}
+            #random_owned = {
+            #    limit = { owner = { 1741 = { owned_by = THIS is_core = THIS } } }
+            #    1742 = { add_core = THIS }
+            #}
+            #random_owned = {
+            #    limit = { owner = { 1738 = { owned_by = THIS is_core = THIS } } }
+            #    2585 = { add_core = THIS add_core = CYR }
+            #}
             #Owner of Baris gets Farafra, Egypt
             random_owned = {
                 limit = {
@@ -5290,15 +5287,15 @@ political_decisions = {
                 }
             }
 
-            random_owned = {
-                limit = { province_id = 1739 }
-                random_empty_neighbor_province = {
-                    limit = { province_id = 1841 }
-                    secede_province = THIS
-                    add_core = SUD
-                    any_pop = { literacy = -0.99 }
-                }
-            }
+           # random_owned = {
+           #     limit = { province_id = 1739 }
+           #     random_empty_neighbor_province = {
+           #         limit = { province_id = 1841 }
+           #         secede_province = THIS
+           #         add_core = SUD
+           #         any_pop = { literacy = -0.99 }
+           #     }
+           # }
         }
         ai_will_do = { factor = 1 }
     }
@@ -11190,7 +11187,7 @@ political_decisions = {
                 remove_core = MOS
             }
 
-            1905 = { change_province_name = "Bobo-Dioulasso" }
+            #1905 = { change_province_name = "Bobo-Dioulasso" }
 
             BKF = {
                 set_country_flag = post_colonial_country
