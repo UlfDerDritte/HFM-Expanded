@@ -29,6 +29,19 @@ political_decisions = {
 				}
 				add_core = BYZ
 			}
+			all_core = { add_core = BYZ remove_core = GRE }
+			THIS = {
+				limit = { government = absolute_monarchy }
+				government = absolute_empire
+			}
+			THIS = {
+				limit = { government = prussian_constitutionalism }
+				government = semi_constitutional_empire
+			}
+			THIS = {
+				limit = { government = hms_government }
+				government = constitutional_empire
+			}
 			prestige = 40
 			badboy = -10
 			869 = {

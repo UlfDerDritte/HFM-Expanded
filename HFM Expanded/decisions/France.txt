@@ -355,6 +355,7 @@ political_decisions = {
 			465 = { add_core = THIS }
 			466 = { add_core = THIS }
 			472 = { add_core = THIS }
+			3251 = { limit = { has_global_flag = disable_microstates } add_core = THIS }
 			random_country = {
 				limit = { owns = 465 }
 				leave_alliance = THIS

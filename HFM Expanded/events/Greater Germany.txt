@@ -150,6 +150,7 @@ country_event = {
 		set_country_flag = austrian_destiny
 		set_country_flag = austrian_greater_germany
 		badboy = 20
+		623 = { add_core = AUS }
 		any_greater_power = {
 			leave_alliance = THIS
 		}
@@ -228,6 +229,7 @@ country_event = {
 			limit = {
 				NOT = { is_culture_group = germanic }
 				NOT = { tag = HUN }
+				NOT = { tag = BGR }
 				NOT = { tag = SLV }
 				NOT = { is_culture_group = south_slavic }
 				NOT = { is_culture_group = italian }
@@ -323,6 +325,7 @@ country_event = {
 		set_country_flag = austrian_greater_germany
 		badboy = 10
 		624 = { remove_core = HUN }
+		623 = { add_core = AUS remove_core = HUN }
 		all_core = {
 			limit = {
 				NOT = { is_core = HUN }
@@ -342,6 +345,7 @@ country_event = {
 			limit = {
 				NOT = { is_culture_group = germanic }
 				NOT = { tag = HUN }
+				NOT = { tag = BGR }
 				any_core = {
 					owned_by = THIS
 					NOT = { is_core = GER }
@@ -511,7 +515,7 @@ country_event = {
 		FROM = {
 			any_owned = {
 				limit = {
-					NOT = { is_core = GER }
+					NOT = { OR = { is_core = GER is_core = GCF } }
 					is_core = THIS
 				}
 				secede_province = THIS
@@ -1395,6 +1399,7 @@ country_event = {
 				all_core = {
 					limit = { NOT = { is_core = HUN } }
 					limit = { NOT = { is_core = BOH } }
+					limit = { NOT = { is_core = POL } }
 					add_core = AUS
 				}
 				all_core = { remove_core = KUK }

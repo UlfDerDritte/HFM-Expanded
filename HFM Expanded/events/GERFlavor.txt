@@ -1172,15 +1172,19 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				war_exhaustion = 1
+				war_exhaustion = 5
 			}
 			modifier = {
 				factor = 0
-				num_of_revolts = 1
+				num_of_revolts = 2
 			}
 			modifier = {
 				factor = 0
 				war = yes
+			}
+			modifier = {
+				factor = 20
+				has_country_flag = 2nd_empire
 			}
 		}
 	}
@@ -1200,7 +1204,13 @@ country_event = {
 			}
 			relation = { who = THIS value = 50 }
 		}
-		ai_chance = { factor = 0.85 }
+		ai_chance = {
+			factor = 0.85
+			modifier = {
+				factor = 0
+				NOT = { PRU = { military_score = THIS } }
+			}
+		}
 	}
 }
 
@@ -1239,7 +1249,7 @@ country_event = {
 				is_vassal = no
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0
 				OR = {
 					vassal_of = AUS
 					in_sphere = AUS

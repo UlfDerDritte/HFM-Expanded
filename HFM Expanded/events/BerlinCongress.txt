@@ -1920,7 +1920,19 @@ country_event = {
 				}
 			}
 			GRE = { set_country_flag = received_congress_benefit }
-		}	
+		}
+
+		GRE = {
+			any_owned = {
+				limit = {
+					OR = {
+						region = TUR_823
+						region = TUR_860
+					}
+				}
+				remove_core = TUR
+			}
+		}
 
 		random_owned = {
 			limit = {

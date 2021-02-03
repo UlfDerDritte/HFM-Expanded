@@ -208,6 +208,7 @@ political_decisions = {
 			}
 			war = yes
 			OR = {
+				war_with = AUB
 				war_with = KUK
 				war_with = AUS
 			}
@@ -218,6 +219,11 @@ political_decisions = {
 					is_greater_power = no
 				}
 				KUK = {
+					exists = yes
+					ai = yes
+					is_greater_power = no
+				}
+				AUB = {
 					exists = yes
 					ai = yes
 					is_greater_power = no

@@ -434,6 +434,9 @@ country_event = {
 					government = absolute_monarchy
 					government = prussian_constitutionalism
 					government = hms_government
+					government = absolute_empire
+					government = semi_constitutional_empire
+					government = constitutional_empire
 				}
 			}
 			relation = { who = THIS value = -75 }	
@@ -445,6 +448,9 @@ country_event = {
 					government = absolute_monarchy
 					government = prussian_constitutionalism
 					government = hms_government
+					government = absolute_empire
+					government = semi_constitutional_empire
+					government = constitutional_empire
 				}
 			}
 			relation = { who = THIS value = -75 }	
@@ -564,7 +570,7 @@ country_event = {
 				OR = {
 					has_country_flag = lost_the_rhine_crisis
 					has_global_flag = franco_prussian_war_has_begun
-					AND = { 
+					AND = {
 						exists = GER
 						412 = { owned_by = GER }
 					}
@@ -787,6 +793,9 @@ country_event = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
 			government = hms_government
+			government = absolute_empire
+			government = semi_constitutional_empire
+			government = constitutional_empire
 		}
 		war = no
 		year = 1871	

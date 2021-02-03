@@ -443,10 +443,8 @@ political_decisions = {
 			FRA = { set_country_flag = siezing_catalonia }
 			BOR = { set_country_flag = siezing_catalonia }
 			badboy = 10
-			498 = { add_core = THIS }
-			499 = { add_core = THIS }
-			500 = { add_core = THIS }
-			501 = { add_core = THIS }
+			SPA_498 = { add_core = THIS }
+			502 = { remove_core = THIS }
 			random_country = {
 				limit = { owns = 499 }
 				leave_alliance = THIS
@@ -938,7 +936,7 @@ political_decisions = {
 			random_owned = {
 				limit = { province_id = 575 }
 				575 = { 
-					change_province_name = "K?ln"
+					change_province_name = "Köln"
 					state_scope = { change_region_name = "Rheinland" }
 				}
 				396 = { change_province_name = "Eupen-Malmedy" }
@@ -954,7 +952,7 @@ political_decisions = {
 					change_province_name = "Koblenz"
 					state_scope = { change_region_name = "Pfalz" }
 				}
-				573 = { change_province_name = "Saarbr?cken" }
+				573 = { change_province_name = "Saarbrücken" }
 				owner = { clr_global_flag = france_rename_prussian_pfalz }
 			}
 			
@@ -979,7 +977,7 @@ political_decisions = {
 			}
 			random_owned = {
 				limit = { province_id = 395 }
-				395 = { change_province_name = "L?ttich" }
+				395 = { change_province_name = "Lüttich" }
 				owner = { 
 					set_global_flag = german_rename_liege
 					clr_global_flag = dutch_rename_liege

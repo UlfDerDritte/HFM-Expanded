@@ -274,6 +274,7 @@ political_decisions = {
 		picture = german_confederation
 		potential = {
 			OR = {
+				tag = AUB
 				tag = KUK
 				tag = AUS
 			}
@@ -301,16 +302,22 @@ political_decisions = {
 			any_owned = {
 				limit = {
 					OR = {
+						is_core = POL
 						is_core = HUN
 						is_core = CRO
 					}
 					NOT = { is_core = DLM }
 				}
 				remove_core = KUK
+				remove_core = AUB
 			}
+			624 = { remove_core = HUN }
+			623 = { add_core = AUS remove_core = HUN }
 			KUK = { all_core = { add_core = AUS } }
+			AUB = { all_core = { add_core = AUS } }
 			GER = { all_core = { add_core = GCF } }
 			RHI = { all_core = { add_core = GCF } }
+			AUS = { all_core = { add_core = GCF } }
 			GCF = { all_core = { remove_core = GER } }
 			change_tag = GCF
 			inherit = NGF
@@ -384,6 +391,34 @@ political_decisions = {
 					NOT = { has_country_flag = post_colonial_country }
 				}
 				country_event = 11101
+			}
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = germanic }
+					NOT = { tag = HUN }
+					NOT = { tag = BGR }
+					any_core = {
+						owned_by = THIS
+						NOT = { is_core = GER }
+						is_colonial = no
+					}
+					exists = no
+					is_cultural_union = no
+				}
+				country_event = 31512
+			}
+			any_country = {
+				limit = {
+					tag = HUN
+					any_core = {
+						owned_by = THIS
+						NOT = { is_core = GER }
+						is_colonial = no
+					}
+					exists = no
+					is_cultural_union = no
+				}
+				country_event = 31512
 			}
 			random_country = {
 				limit = {

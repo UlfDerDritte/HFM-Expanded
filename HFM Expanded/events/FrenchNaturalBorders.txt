@@ -325,21 +325,31 @@ country_event = {
 		is_greater_power = yes
 		capital = 425
 		war = no
-		THIS = { all_core = { owned_by = THIS } }
-		FLA = { all_core = { owned_by = THIS } }
-		WLL = { all_core = { owned_by = THIS } }
-		LUX = { all_core = { owned_by = THIS } }
-		381 = { owned_by = THIS }
-		570 = { owned_by = THIS }
-		571 = { owned_by = THIS }
-		572 = { owned_by = THIS }
-		573 = { owned_by = THIS }
-		574 = { owned_by = THIS }
-		575 = { owned_by = THIS }
-		576 = { owned_by = THIS }
-		577 = { owned_by = THIS }
-		396 = { owned_by = THIS }
-		NOT = { has_global_flag = french_natural_borders }
+		OR = {
+			AND = {
+				ai = no
+				THIS = { all_core = { owned_by = THIS } }
+				FLA = { all_core = { owned_by = THIS } }
+				WLL = { all_core = { owned_by = THIS } }
+				LUX = { all_core = { owned_by = THIS } }
+				381 = { owned_by = THIS }
+				570 = { owned_by = THIS }
+				571 = { owned_by = THIS }
+				572 = { owned_by = THIS }
+				573 = { owned_by = THIS }
+				574 = { owned_by = THIS }
+				575 = { owned_by = THIS }
+				576 = { owned_by = THIS }
+				577 = { owned_by = THIS }
+				396 = { owned_by = THIS }
+				NOT = { has_global_flag = french_natural_borders }
+			}
+			AND = {
+				ai = yes
+				THIS = { all_core = { owned_by = THIS } }
+				has_country_flag = annexed_rhineland
+				NOT = { has_global_flag = french_natural_borders }
+			}
 	}
 
 	mean_time_to_happen =  { months = 1 }
@@ -350,8 +360,25 @@ country_event = {
 		prestige = 100
 		war_exhaustion = -20
 		relation = { who = SPC value = 50 }
+		FLA = { all_core = { add_core = THIS } }
 		WLL = { all_core = { add_core = THIS } }
 		LUX = { all_core = { add_core = THIS } }
+		any_province = {
+			limit = {
+				THIS = { ai = yes }
+				OR = {
+					region = PRU_575
+					region = PRU_570
+					region = BEL_387
+					province_id = 381
+				}
+			}
+			add_core = THIS
+			add_province_modifier = {
+				name = core_integration
+				duration = -1
+			}
+		}
 		any_owned = {
 			limit = {
 				OR = {
@@ -361,15 +388,20 @@ country_event = {
 					province_id = 381
 				}
 			}
-			add_core = FRA
+			add_core = THIS
 			add_province_modifier = {
 				name = core_integration
 				duration = -1
 			}
 		}
-		LUX = { all_core = { add_core = GER } }
+		LUX = { all_core = { limit = { GCF = { exists = no} } add_core = GER } }
+		LUX = { all_core = { limit = { GCF = { exists = yes} } add_core = GCF } }
 		398 = { remove_core = LUX }
-		398 = { remove_core = GER }
+		398 = { limit = { GCF = { exists = no} } remove_core = GER }
+		398 = { limit = { GCF = { exists = yes} } remove_core = GCF }
+		3377 = { remove_core = LUX }
+		3377 = {limit = { GCF = { exists = no} }  remove_core = GER }
+		3377 = {limit = { GCF = { exists = yes} }  remove_core = GCF }
 		any_owned = {
 			limit = {
 				is_core = NET

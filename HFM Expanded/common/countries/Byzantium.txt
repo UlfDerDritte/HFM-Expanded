@@ -1,4 +1,13 @@
-color = { 143 12 125 }
+color = { 70 10 190 }
+absolute_empire = { 50 20 150 }
+semi_constitutional_empire = { 50 20 150 }
+constitutional_empire = { 50 20 150 }
+absolute_monarchy = { 50 20 150 } #143 12 125
+republic = { 25 100 170 }
+parliamentary_republic = { 145 107 207 }
+fascist_dictatorship = { 50 7 87 }
+presidential_dictatorship = { 145 107 207 }
+proletarian_dictatorship = { 168 94 130 }
 graphical_culture = EuropeanGC
 
 party = {
@@ -46,6 +55,35 @@ party = {
 	war_policy = pro_military
 }
 
+party = {
+    name = "BYZ_liberal_2"
+    start_date = 1875.1.1
+    end_date = 2000.1.1
+
+    ideology = liberal
+
+    social_policy = no_position_set
+    economic_policy = interventionism
+    trade_policy = protectionism
+    religious_policy = pluralism
+    citizenship_policy = limited_citizenship
+    war_policy = pro_military
+}
+
+party = {
+    name = "BYZ_conservative_2"
+    start_date = 1875.1.1
+    end_date = 2000.1.1
+
+    ideology = conservative
+
+    social_policy = no_position_set
+    economic_policy = laissez_faire
+    trade_policy = protectionism
+    religious_policy = pluralism
+    citizenship_policy = limited_citizenship
+    war_policy = jingoism
+}
 
 party = {
 	name = "BYZ_radical"
@@ -70,7 +108,7 @@ party = {
 	ideology = socialist
 
 	social_policy = welfare_state
-	economic_policy = planned_economy
+	economic_policy = state_capitalism
 	trade_policy = protectionism
 	religious_policy = secularized
 	citizenship_policy = full_citizenship

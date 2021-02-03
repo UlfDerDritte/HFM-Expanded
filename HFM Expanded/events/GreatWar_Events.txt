@@ -2157,9 +2157,9 @@ country_event = {
 						FROM = { NOT = { government = fascist_dictatorship } }
 					}
 					AND = {
-						government = bourgeois_dictatorship
-						THIS = { government = bourgeois_dictatorship }
-						FROM = { NOT = { government = bourgeois_dictatorship } }
+						government = parliamentary_republic
+						THIS = { government = parliamentary_republic }
+						FROM = { NOT = { government = parliamentary_republic } }
 					}
 					AND = {
 						OR = {
@@ -2386,8 +2386,8 @@ country_event = {
 			}
 			modifier = {
 				factor = 2
-				government = bourgeois_dictatorship
-				FROM = { government = bourgeois_dictatorship }		
+				government = parliamentary_republic
+				FROM = { government = parliamentary_republic }		
 			}
 			modifier = {
 				factor = 0
@@ -2472,11 +2472,11 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				government = proletarian_dictatorship
-				FROM = { government = bourgeois_dictatorship }		
+				FROM = { government = parliamentary_republic }		
 			}
 			modifier = {
 				factor = 1.5
-				government = bourgeois_dictatorship
+				government = parliamentary_republic
 				FROM = { government = proletarian_dictatorship }		
 			}
 			modifier = {
