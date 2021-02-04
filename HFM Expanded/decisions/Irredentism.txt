@@ -952,10 +952,7 @@ political_decisions = {
 			101 = { add_core = DES }
 			100 = { add_core = DES }
 			102 = { add_core = DES }
-			88 = { add_core = DES }
-			87 = { add_core = DES }
-			89 = { add_core = DES }
-			90 = { add_core = DES }
+			MEX_85_2 = { add_core = DES }
 			set_country_flag = deseret_claims 
 		}
 		ai_will_do = { factor = 1 }

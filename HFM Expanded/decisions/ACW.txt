@@ -1336,6 +1336,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = 36_or_fight
 			badboy = 5
+			MEX_85_2 = { add_core = CSA }
 			MEX_103 = { add_core = CSA }
 			MEX_100 = { add_core = CSA }
 			TEX_132 = { add_core = CSA }
@@ -1350,10 +1351,6 @@ political_decisions = {
 			USA_194 = { add_core = CSA }
 			USA_139 = { add_core = CSA }
 			96 = { add_core = CSA }
-			90 = { add_core = CSA }
-			89 = { add_core = CSA }
-			88 = { add_core = CSA }
-			87 = { add_core = CSA }
 			any_neighbor_country = { limit = { any_owned_province = { is_core = THIS } } country_event = 441268 }
 		}
 		ai_will_do = { factor = 1 }
@@ -1767,6 +1764,7 @@ political_decisions = {
 			90 = { add_core = DES }
 			100 = { add_core = DES }
 			101 = { add_core = DES }
+			3451 = { add_core = DES }
 		}
 		
 		ai_will_do = { factor = 1 }
