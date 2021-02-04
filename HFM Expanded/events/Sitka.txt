@@ -227,6 +227,7 @@ country_event = {
 		owns = 3290
 		owns = 810
 		owns = 799
+		owns = 809
 		year = 1836
 		NOT = { exists = BUL}
 	}
@@ -259,6 +260,7 @@ country_event = {
 		tag = TUR
 		owns = 786
 		owns = 785
+		owns = 783
 		year = 1836
 		NOT = { exists = BOS }
 	}
@@ -488,4 +490,174 @@ country_event = {
 			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
 		}
 	}
+}
+country_event = {
+	id = 123473
+	title = "Herzegovina uprisings of 1852"
+	desc = "The Herzegovinians are revolting against our rule."
+	fire_only_once = yes
+	picture = "HRZ_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 788
+		owns = 783
+		owns = 2569
+		year = 1852
+		NOT = { exists = BOS }
+	}
+	option {
+		name = "Crush them!"
+		788 = {		
+			secede_province = BOS
+		}
+		2569 = {		
+			secede_province = BOS
+		}
+		war = {
+			target = BOS
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 788 }
+		}
+	}
+}
+country_event = {
+	id = 123474
+	title = "Macedonian uprisings of 1854"
+	desc = "The Herzegovinians are revolting against our rule."
+	fire_only_once = yes
+	picture = "MCD_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 822
+		owns = 805
+		owns = 3342
+		owns = 821
+		owns = 820
+		owns = 819
+		owns = 806
+		year = 1852
+		NOT = { exists = MCD }
+	}
+	option {
+		name = "Crush them!"
+		822 = {		
+			secede_province = MCD
+		}
+		805 = {		
+			secede_province = MCD
+		}
+		3342 = {		
+			secede_province = MCD
+		}
+		821 = {		
+			secede_province = MCD
+		}
+		820 = {		
+			secede_province = MCD
+		}
+		819 = {		
+			secede_province = MCD
+		}
+		war = {
+			target = MCD
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 806 }
+		}
+	}
+
+}
+country_event = {
+	id = 123475
+	title = "Bulgarian uprisings of 1876"
+	desc = "The Bulgarians are revolting against our rule."
+	fire_only_once = yes
+	picture = "April_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 809
+		owns = 3373
+		owns = 3305
+		owns = 807
+		owns = 3291
+		year = 1876
+		NOT = { exists = BUL }
+	}
+	option {
+		name = "Crush them!"
+		3305 = {		
+			secede_province = BUL
+		}
+		3373 = {		
+			secede_province = BUL
+		}
+		807 = {		
+			secede_province = BUL
+		}
+		3291 = {		
+			secede_province = BUL
+		}
+		war = {
+			target = BUL
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 810 }
+		}
+	}
+
+}
+country_event = {
+	id = 123476
+	title = "Bulgarian uprisings of 1878"
+	desc = "The Bulgarians are revolting against our rule."
+	fire_only_once = yes
+	picture = "Kresna_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 809
+		owns = 808
+		year = 1878
+		NOT = { exists = BUL }
+	}
+	option {
+		name = "Crush them!"
+		808 = {		
+			secede_province = BUL
+		}
+		war = {
+			target = BUL
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 810 }
+		}
+	}
+
+}
+country_event = {
+	id = 123477
+	title = "Bulgarian Macedonian uprisings of 1880"
+	desc = "The Bulgarians are revolting against our rule."
+	fire_only_once = yes
+	picture = "Kresna_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 806
+		owns = 808
+		year = 1880
+		NOT = { exists = BUL }
+	}
+	option {
+		name = "Crush them!"
+		806 = {		
+			secede_province = BUL
+		}
+		war = {
+			target = BUL
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 810 }
+		}
+	}
+
 }
