@@ -1154,7 +1154,8 @@ political_decisions = {
 				}
 				country_event = { id = 72739 }
 			}
-			MEX_85 = { add_core = MEX } #California
+			MEX_85_1 = { add_core = MEX } #Northern California
+			MEX_85_2 = { add_core = MEX } #Southern California
 			TEX_132 = { add_core = MEX } #Texas
 			MEX_94 = { add_core = MEX } #Nevada
 			MEX_97 = { add_core = MEX } #Utah
