@@ -215,3 +215,277 @@ country_event = {
 		prestige = 30
 	}
 }
+country_event = {
+	id = 123465
+	title = "Bulgarian Revolts in Berkovitsa, Pirot and Belogradchik"
+	desc = "The Bulgarians are revolting against our rule."
+	fire_only_once = yes
+	picture = "BUL_revolt_1836"
+	mean_time_to_happen = { months = 3 }
+	trigger = {
+		tag = TUR
+		owns = 3290
+		owns = 810
+		owns = 799
+		year = 1836
+		NOT = { exists = BUL}
+	}
+	option {
+		name = "Crush them!"
+		3290 = {		
+			secede_province = BUL
+		}
+		810 = {		
+			secede_province = BUL
+		}		
+		799 = {		
+			secede_province = BUL
+		}
+		war = {
+			target = BUL
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 810 }
+		}
+	}
+}
+country_event = {
+	id = 123466
+	title = "Bosnian revolts in the Posavina"
+	desc = "The Bosnians are revolting against our rule."
+	fire_only_once = yes
+	picture = "BOS_revolt"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 786
+		owns = 785
+		year = 1836
+		NOT = { exists = BOS }
+	}
+	option {
+		name = "Crush them!"
+		785 = {		
+			secede_province = BOS
+		}
+		786 = {		
+			secede_province = BOS
+		}		
+		war = {
+			target = BOS
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 788 }
+		}
+	}
+}
+country_event = {
+	id = 123467
+	title = "Albanian revolts of 1836"
+	desc = "The Albanians are revolting against our rule."
+	fire_only_once = yes
+	picture = "ALB_revolt_1"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 852
+		owns = 849
+		year = 1836
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		852 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
+country_event = {
+	id = 123468
+	title = "Albanian revolts of 1837"
+	desc = "The Albanians are revolting against our rule."
+	fire_only_once = yes
+	picture = "ALB_revolt_2"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 853
+		owns = 850
+		owns = 3308
+		owns = 3420
+		owns = 800
+		owns = 1780
+		owns = 803
+		owns = 849
+		year = 1837
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		851 = {		
+			secede_province = ALB
+		}
+		850 = {		
+			secede_province = ALB
+		}
+		3308 = {		
+			secede_province = ALB
+		}
+		3420 = {		
+			secede_province = ALB
+		}
+		800 = {		
+			secede_province = ALB
+		}
+		803 = {		
+			secede_province = ALB
+		}
+		1780 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
+country_event = {
+	id = 123469
+	title = "Albanian revolts of 1839"
+	desc = "The Albanians are revolting against our rule."
+	fire_only_once = yes
+	picture = "ALB_revolt_3"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 852
+		owns = 849
+		owns = 803
+		year = 1839
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		852 = {		
+			secede_province = ALB
+		}
+		803 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
+country_event = {
+	id = 123470
+	title = "Uprising of Dervish Cara"
+	desc = "The Albanians are revolting against our rule under the leadership of the rebellious Dervish Cara."
+	fire_only_once = yes
+	picture = "ALB_revolt_4"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 802
+		owns = 803
+		owns = 3421
+		owns = 1780
+		owns = 849
+		year = 1843
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		802 = {		
+			secede_province = ALB
+		}
+		803 = {		
+			secede_province = ALB
+		}
+		3421 = {		
+			secede_province = ALB
+		}
+		1780 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
+country_event = {
+	id = 123471
+	title = "Albanian revolts of 1845"
+	desc = "The Albanians are revolting against our rule."
+	fire_only_once = yes
+	picture = "ALB_revolt_5"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 850
+		owns = 803
+		owns = 1780
+		owns = 849
+		year = 1845
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		803 = {		
+			secede_province = ALB
+		}
+		850 = {		
+			secede_province = ALB
+		}
+		1780 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
+country_event = {
+	id = 123472
+	title = "Albanian revolts of 1847"
+	desc = "The Albanians are revolting against our rule."
+	fire_only_once = yes
+	picture = "ALB_revolt_6"
+	mean_time_to_happen = { months = 5 }
+	trigger = {
+		tag = TUR
+		owns = 852
+		owns = 853
+		owns = 854
+		owns = 849
+		year = 1847
+		NOT = { exists = ALB }
+	}
+	option {
+		name = "Crush them!"
+		852 = {		
+			secede_province = ALB
+		}
+		853 = {		
+			secede_province = ALB
+		}
+		824 = {		
+			secede_province = ALB
+		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = conquest_any }
+			defender_goal = { casus_belli = acquire_core_state state_province_id = 853 }
+		}
+	}
+}
