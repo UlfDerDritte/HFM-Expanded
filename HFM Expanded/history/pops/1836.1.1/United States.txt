@@ -834,6 +834,30 @@
 #Monterey (3200/800 POPS)
 87 = {
 	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 6
+	}
+
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 15
+	}
+
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 75
+	}
+
+	aristocrats = {
 		culture = mexican
 		religion = catholic
 		size = 6
@@ -863,30 +887,6 @@
 		size = 250
 	}
 	
-	aristocrats = {
-		culture = yankee
-		religion = protestant
-		size = 6
-	}
-
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 15
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 10
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 75
-	}
-
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -1271,6 +1271,30 @@
 #Fresno (3200/800 POPS)
 3449 = {
 	aristocrats = {
+		culture = yankee
+		religion = protestant
+		size = 6
+	}
+
+	clergymen = {
+		culture = yankee
+		religion = protestant
+		size = 15
+	}
+
+	soldiers = {
+		culture = yankee
+		religion = protestant
+		size = 10
+	}
+
+	farmers = {
+		culture = yankee
+		religion = protestant
+		size = 75
+	}
+
+	aristocrats = {
 		culture = mexican
 		religion = catholic
 		size = 6
@@ -1300,30 +1324,6 @@
 		size = 250
 	}
 	
-	aristocrats = {
-		culture = yankee
-		religion = protestant
-		size = 6
-	}
-
-	clergymen = {
-		culture = yankee
-		religion = protestant
-		size = 15
-	}
-
-	soldiers = {
-		culture = yankee
-		religion = protestant
-		size = 10
-	}
-
-	farmers = {
-		culture = yankee
-		religion = protestant
-		size = 75
-	}
-
 	aristocrats = {
 		culture = native_american_minor
 		religion = animist
@@ -1492,30 +1492,6 @@
 #Mariposa (4000/1000 POPS)
 3452 = {
 	aristocrats = {
-		culture = native_american_minor
-		religion = animist
-		size = 15
-	}
-
-	clergymen = {
-		culture = native_american_minor
-		religion = animist
-		size = 25
-	}
-
-	soldiers = {
-		culture = native_american_minor
-		religion = animist
-		size = 10
-	}
-
-	farmers = {
-		culture = native_american_minor
-		religion = animist
-		size = 900
-	}
-
-	aristocrats = {
 		culture = yankee
 		religion = protestant
 		size = 15
@@ -1544,6 +1520,30 @@
 		religion = protestant
 		size = 10
 	}
+	aristocrats = {
+		culture = native_american_minor
+		religion = animist
+		size = 15
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = animist
+		size = 25
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = animist
+		size = 900
+	}
+
 }
 #Redding (4000/1000 POPS)
 3453 = {

@@ -2766,6 +2766,7 @@ province_event = {
 					province_id = 299 		#Plymouth, UK
 					province_id = 276 		#Holyhead, UK
 					province_id = 304 		#Isle of Man, UK
+					province_id = 3453		#Redding, USA
 				}
 				year = 1865
 			}

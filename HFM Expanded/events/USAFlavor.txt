@@ -1226,7 +1226,7 @@ country_event = {
 	picture = "seattle_1870"
 
 	trigger = {
-		tag = USA   
+		THIS = { primary_culture = yankee }
 		owns = 78
 		owns = 79
 	}
