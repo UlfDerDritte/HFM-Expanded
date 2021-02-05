@@ -209,17 +209,17 @@ HOL_dominion;Holsten;;;;;;;;;;;;;x,
 SWH_colonial_company;Slesvig-Holsten;;;;;;;;;;;;;x,
 SWH_dominion;Slesvig-Holsten;;;;;;;;;;;;;x,
 BEL_conservative;Parti Catholique;Katholieke Partij;Katholieke Partij;;Katholieke Partij;;;;;;;;;x;;;;
-AUS_conservative;Metternich's Faction;Faction de Metternich;Metternich-Fraktion;;Facci? de Metternich;;;;;;;;;x;;;;
-AUS_conservative_2;Kolovrat's Faction;Faction de Kolovrat;Kolovrat-Fraktion;;Facci? de Kolovrat;;;;;;;;;x;;;;
-AUS_reactionary;Neo-absolutists;N?-absolutistes;Neo-Absolutisten;;Neoabsolutistas;;;;;;;;;x;;;;
-AUS_socialist;Radicals;Radicaux;Radikale;;Radicales;;;;;;;;;x;;;;
+AUS_conservative;Metternich-Fraktion;Faction de Metternich;Metternich-Fraktion;;Facci? de Metternich;;;;;;;;;x;;;;
+AUS_conservative_2;Kolovrat-Fraktion;Faction de Kolovrat;Kolovrat-Fraktion;;Facci? de Kolovrat;;;;;;;;;x;;;;
+AUS_reactionary;Neo-Absolutisten;N?-absolutistes;Neo-Absolutisten;;Neoabsolutistas;;;;;;;;;x;;;;
+AUS_socialist;Radikale;Radicaux;Radikale;;Radicales;;;;;;;;;x;;;;
 AUS_liberal;Verfassungspartei;F??alistes;F?eralisten;;Federalistas;;;;;;;;;x;;;;
-AUS_conservative_3;Bach's Faction;Faction de Bach;Bach's Faction;;Facci? de Bach;;;;;;;;;x;;;;
-AUS_conservative_4;The Iron Ring;Iron Ring;The Iron Ring;;El Anillo de Hierro;;;;;;;;;x;;;;
-AUS_socialist_2;Socialists;Socialistes;Socialists;;Socialistas;;;;;;;;;x;;;;
-AUS_reactionary_2;Christlichsoziale Partei;Radicaux allemands;German Radicals;;Radicales alemanes;;;;;;;;;x;;;;
-AUS_conservative_5;Sozialdemokratische Partei Österreichs;Conservateurs;Conservatives;;Conservadores;;;;;;;;;x;;;;
-AUS_liberal_2;F?deralistische;Grands propri?aires f??alistes;Federalist Great Proprietors;;Grandes Pro;;;;;;;;;x;;;;
+AUS_conservative_3;Bach Fraktion;Faction de Bach;Bach's Faction;;Facci? de Bach;;;;;;;;;x;;;;
+AUS_conservative_4;Der Eiserne Ring;Iron Ring;The Iron Ring;;El Anillo de Hierro;;;;;;;;;x;;;;
+AUS_socialist_2;Sozialdemokratische Partei Österreichs;Socialistes;Socialists;;Socialistas;;;;;;;;;x;;;;
+AUS_reactionary_2;Deutsch-Radikale;Radicaux allemands;German Radicals;;Radicales alemanes;;;;;;;;;x;;;;
+AUS_conservative_5;Christlichsoziale Partei;Conservateurs;Conservatives;;Conservadores;;;;;;;;;x;;;;
+AUS_liberal_2;Föderalistische Großgrundbesitzer;Grands propri?aires f??alistes;Federalist Great Proprietors;;Grandes Pro;;;;;;;;;x;;;;
 MLW_dominion;Nyasaland;;;;;;;;;;;;x
 MLW_colonial_company;Nyasaland;;;;;;;;;;;;;x,
 NAL_dominion;Natal;;;;;;;;;;;;x
@@ -632,3 +632,5 @@ GCF_hms_government;The German Confederation;;;;;;;;;;;;;x,
 GCF_absolute_empire;The Holy Roman Empire;;;;;;;;;;;;;x,
 GCF_semi_constitutional_empire;The German Confederation;;;;;;;;;;;;;x,
 GCF_constitutional_empire;The German Confederation;;;;;;;;;;;;;x,
+GCF_republic;The German People's Confederacy;
+GCF_proletarian_dictatorship;The Federal Republic of Germany;

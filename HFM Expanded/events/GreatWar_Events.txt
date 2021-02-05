@@ -4063,7 +4063,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96012
 		}
@@ -4098,7 +4098,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96012
 		}
@@ -4217,7 +4217,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4275,7 +4275,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4316,7 +4316,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4346,7 +4346,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4376,7 +4376,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4406,7 +4406,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4436,7 +4436,7 @@ country_event = {
 			clr_country_flag = socialist_party_in_power
 			clr_country_flag = communist_party_in_power
 			clr_country_flag = fascist_party_in_power
-			clr_country_flag = anarcho_liberal_party_in_power
+			clr_country_flag = radical_party_in_power
 			
 			country_event = 96060
 		}
@@ -4469,7 +4469,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4503,7 +4503,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4537,7 +4537,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4585,7 +4585,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				ruling_party_ideology = conservative
 			}
@@ -4624,7 +4624,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4661,7 +4661,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 				
 				country_event = 96060
 			}
@@ -4704,7 +4704,7 @@ country_event = {
 					clr_country_flag = socialist_party_in_power
 					clr_country_flag = communist_party_in_power
 					clr_country_flag = fascist_party_in_power
-					clr_country_flag = anarcho_liberal_party_in_power
+					clr_country_flag = radical_party_in_power
 					
 					country_event = 96060
 				}
@@ -4732,7 +4732,7 @@ country_event = {
 					clr_country_flag = socialist_party_in_power
 					clr_country_flag = communist_party_in_power
 					clr_country_flag = fascist_party_in_power
-					clr_country_flag = anarcho_liberal_party_in_power
+					clr_country_flag = radical_party_in_power
 					
 					country_event = 96012
 				}
@@ -10859,7 +10859,7 @@ country_event = {
 		set_country_flag = democracy_gov
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
-		clr_country_flag = anarcho_liberal_gov
+		clr_country_flag = radical_gov
 		clr_country_flag = election_started
 		clr_country_flag = conservative_party_in_power
 		clr_country_flag = liberal_party_in_power
@@ -10867,7 +10867,7 @@ country_event = {
 		clr_country_flag = socialist_party_in_power
 		clr_country_flag = communist_party_in_power
 		clr_country_flag = fascist_party_in_power
-		clr_country_flag = anarcho_liberal_party_in_power
+		clr_country_flag = radical_party_in_power
 		
 		random_country = {
 			limit = {
@@ -10956,7 +10956,7 @@ country_event = {
 		clr_country_flag = democracy_gov
 		clr_country_flag = presidential_dictatorship_gov
 		set_country_flag = fascist_gov
-		clr_country_flag = anarcho_liberal_gov
+		clr_country_flag = radical_gov
 		clr_country_flag = election_started
 		clr_country_flag = conservative_party_in_power
 		clr_country_flag = liberal_party_in_power
@@ -10964,7 +10964,7 @@ country_event = {
 		clr_country_flag = socialist_party_in_power
 		clr_country_flag = communist_party_in_power
 		clr_country_flag = fascist_party_in_power
-		clr_country_flag = anarcho_liberal_party_in_power
+		clr_country_flag = radical_party_in_power
 		
 		random_country = {
 			limit = {
@@ -11069,7 +11069,7 @@ country_event = {
 		clr_country_flag = democracy_gov
 		clr_country_flag = presidential_dictatorship_gov
 		clr_country_flag = fascist_gov
-		clr_country_flag = anarcho_liberal_gov
+		clr_country_flag = radical_gov
 		clr_country_flag = election_started
 		clr_country_flag = conservative_party_in_power
 		clr_country_flag = liberal_party_in_power
@@ -11077,7 +11077,7 @@ country_event = {
 		clr_country_flag = socialist_party_in_power
 		clr_country_flag = communist_party_in_power
 		clr_country_flag = fascist_party_in_power
-		clr_country_flag = anarcho_liberal_party_in_power
+		clr_country_flag = radical_party_in_power
 		
 		random_country = {
 			limit = {
@@ -11229,7 +11229,7 @@ country_event = {
 				clr_country_flag = socialist_party_in_power
 				clr_country_flag = communist_party_in_power
 				clr_country_flag = fascist_party_in_power
-				clr_country_flag = anarcho_liberal_party_in_power
+				clr_country_flag = radical_party_in_power
 			}
 		}
 		any_pop = {
@@ -11241,7 +11241,7 @@ country_event = {
 				factor = 4
 			}
 			scaled_militancy = {
-				ideology = anarcho_liberal
+				ideology = radical
 				factor = 8
 			}
 			scaled_militancy = {
