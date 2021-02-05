@@ -3724,6 +3724,7 @@ province_event = {
 		OR = {
 			is_core = USA
 			state_id = 131
+			state_id = 132
 			state_id = 133
 			state_id = 91
 			state_id = 82
