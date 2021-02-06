@@ -748,7 +748,7 @@ political_decisions = {
 					remove_core = USA
 				}
 			}
-			NEN = { primary_culture = anglo_canadian }
+			#NEN = { primary_culture = anglo_canadian }
 			#CAN = { add_accepted_culture = yankee }
 			random_country = {
 				limit = {
@@ -848,6 +848,7 @@ political_decisions = {
 					owned_by = CAN
 				}
 			}
+			232 = { province_control_days = 1460 }
 		}
 		allow = {
 			prestige = 75
@@ -872,6 +873,7 @@ political_decisions = {
 				}
 				secede_province = CAN
 			}
+			NEN = { primary_culture = anglo_canadian }
 		}
 		ai_will_do = {
 			factor = 1
