@@ -1882,6 +1882,18 @@ political_decisions = {
 #				slavery = yes_slavery
 #				slavery = freedom_of_womb
 #			}
+#			any_state = {
+#				limit = { is_slave = yes }
+#				any_pop = {
+#					AND = {
+#						OR = {
+#							pop_type = farmers
+#							pop_type = labourers
+#						}
+#						has_pop_culture = afro_american
+#					}
+#				}
+#			}
 #		}
 #		
 #		allow = {
@@ -1908,4 +1920,4 @@ political_decisions = {
 #		
 #		ai_will_do = { factor = 1 }
 #	}
-#}
+}
